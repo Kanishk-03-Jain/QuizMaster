@@ -107,7 +107,8 @@ export function EditQuizForm({ quiz, userId }: { quiz: Quiz; userId: string }) {
             quiz_id: quiz.id,
             question_text: question.question_text,
             question_type: question.question_type,
-            correct_answer: question.correct_answer,
+            // For multiple choice, we'll set correct_answer after inserting options
+            correct_answer: question.question_type === "multiple_choice" ? "" : question.correct_answer,
             points: question.points,
             order_index: i,
           })
@@ -127,8 +128,28 @@ export function EditQuizForm({ quiz, userId }: { quiz: Quiz; userId: string }) {
             }))
 
           if (optionsToInsert.length > 0) {
-            const { error: optionsError } = await supabase.from("question_options").insert(optionsToInsert)
+            // Insert options and fetch inserted rows to map new IDs by order_index
+            const { data: insertedOptions, error: optionsError } = await supabase
+              .from("question_options")
+              .insert(optionsToInsert)
+              .select()
+
             if (optionsError) throw optionsError
+
+            // Map the originally selected correct option (by local option id) to the new inserted option id via order_index
+            const correctLocalIndex = question.question_options.findIndex((opt) => opt.id === question.correct_answer)
+
+            if (correctLocalIndex >= 0 && insertedOptions && insertedOptions.length > 0) {
+              const matchedInserted = insertedOptions.find((opt) => opt.order_index === correctLocalIndex)
+              if (matchedInserted) {
+                const { error: updateCorrectError } = await supabase
+                  .from("quiz_questions")
+                  .update({ correct_answer: matchedInserted.id })
+                  .eq("id", newQuestion.id)
+
+                if (updateCorrectError) throw updateCorrectError
+              }
+            }
           }
         }
       }

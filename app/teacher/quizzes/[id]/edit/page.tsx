@@ -2,7 +2,14 @@ import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import { EditQuizForm } from "@/components/teacher/edit-quiz-form"
 
-export default async function EditQuizPage({ params }: { params: { id: string } }) {
+export default async function EditQuizPage({
+  params,
+}: {
+  params: Promise<{ id: string }> | { id: string };
+}) {
+  // unwrap params (fixes: "params is a Promise" error)
+  const { id } = await params;
+
   const supabase = await createClient()
   const {
     data: { user },
@@ -36,7 +43,7 @@ export default async function EditQuizPage({ params }: { params: { id: string } 
         )
       )
     `)
-    .eq("id", params.id)
+    .eq("id", id)
     .eq("teacher_id", user.id)
     .order("order_index", { foreignTable: "quiz_questions", ascending: true })
     .single()

@@ -33,6 +33,7 @@ export default async function QuizPage({
         question_type,
         order_index,
         points,
+        correct_answer,
         question_options (
           id,
           option_text,

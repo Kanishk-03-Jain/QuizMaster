@@ -168,12 +168,31 @@ export function QuizInterface({ quiz, userId }: { quiz: Quiz; userId: string }) 
     if (!answer || (Array.isArray(answer) && answer.length === 0)) return false
 
     if (q.question_type === "multiple_choice") {
-      return answer === q.correct_answer
+      // Normalize selected answer to an option id string
+      const selectedOption = q.question_options?.find((opt) => opt.id === answer)
+      const selectedOptionId = selectedOption?.id || (typeof answer === "string" ? answer : "")
+
+      // Determine if correct_answer is stored as an option id or as option text
+      const correctAnswerRaw = q.correct_answer || ""
+      const correctOptionById = q.question_options?.find((opt) => opt.id === correctAnswerRaw)
+
+      if (correctOptionById) {
+        // correct_answer stores the option id
+        return selectedOptionId === correctOptionById.id
+      }
+
+      // Fallback: compare by option text (case-insensitive)
+      const selectedText = selectedOption?.option_text?.trim().toLowerCase() || ""
+      const correctText = correctAnswerRaw.trim().toLowerCase()
+      return selectedText === correctText
     } else if (q.question_type === "true_false") {
-      return answer === q.correct_answer
+      // Ensure correct_answer is defined and compare
+      const correctAnswer = q.correct_answer?.trim().toLowerCase() || ""
+      return (answer as string).trim().toLowerCase() === correctAnswer
     } else {
-      // For short answer, do case-insensitive comparison
-      return answer.toLowerCase().trim() === q.correct_answer.toLowerCase().trim()
+      // For short answer, ensure correct_answer is defined and compare
+      const correctAnswer = q.correct_answer?.trim().toLowerCase() || ""
+      return (answer as string).trim().toLowerCase() === correctAnswer
     }
   }
 

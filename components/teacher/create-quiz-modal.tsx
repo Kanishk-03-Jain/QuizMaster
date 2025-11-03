@@ -100,7 +100,8 @@ export function CreateQuizModal({
             quiz_id: newQuiz.id,
             question_text: question.question_text,
             question_type: question.question_type,
-            correct_answer: question.correct_answer,
+            // For multiple choice, set later after inserting options
+            correct_answer: question.question_type === "multiple_choice" ? "" : question.correct_answer,
             points: question.points,
             order_index: question.order_index,
           })
@@ -120,8 +121,27 @@ export function CreateQuizModal({
             }))
 
           if (optionsToInsert.length > 0) {
-            const { error: optionsError } = await supabase.from("question_options").insert(optionsToInsert)
+            // Insert options and fetch them back to determine new UUIDs
+            const { data: insertedOptions, error: optionsError } = await supabase
+              .from("question_options")
+              .insert(optionsToInsert)
+              .select()
+
             if (optionsError) throw optionsError
+
+            // Map local selected correct option (by index) to inserted option id
+            const correctLocalIndex = question.question_options.findIndex((opt) => opt.id === question.correct_answer)
+            if (correctLocalIndex >= 0 && insertedOptions && insertedOptions.length > 0) {
+              const matchedInserted = insertedOptions.find((opt) => opt.order_index === correctLocalIndex)
+              if (matchedInserted) {
+                const { error: updateCorrectError } = await supabase
+                  .from("quiz_questions")
+                  .update({ correct_answer: matchedInserted.id })
+                  .eq("id", newQuestion.id)
+
+                if (updateCorrectError) throw updateCorrectError
+              }
+            }
           }
         }
       }

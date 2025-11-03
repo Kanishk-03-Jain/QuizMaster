@@ -67,8 +67,15 @@ export function QuizResults({ attempt, quizId }: { attempt: Result; quizId: stri
     const question = answer.quiz_questions
 
     if (question.question_type === "multiple_choice") {
-      const option = question.question_options.find((opt) => opt.id === question.correct_answer)
-      return option ? option.option_text : `Option: ${question.correct_answer}`
+      // Try match by option id first
+      const optionById = question.question_options.find((opt) => opt.id === question.correct_answer)
+      if (optionById) return optionById.option_text
+
+      // Fallback: try match by option text (case-insensitive)
+      const optionByText = question.question_options.find(
+        (opt) => opt.option_text.trim().toLowerCase() === (question.correct_answer || "").trim().toLowerCase(),
+      )
+      return optionByText ? optionByText.option_text : `Option: ${question.correct_answer}`
     } else if (question.question_type === "true_false") {
       return question.correct_answer === "true" ? "True" : question.correct_answer === "false" ? "False" : "Unknown"
     } else {
