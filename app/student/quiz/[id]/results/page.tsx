@@ -5,13 +5,20 @@ import { QuizResults } from "@/components/student/quiz-results"
 export default async function ResultsPage({
   params,
   searchParams,
-}: { params: { id: string }; searchParams: { attemptId: string } }) {
+}: {
+  params: Promise<{ id: string }> | { id: string }
+  searchParams: Promise<{ attemptId?: string }> | { attemptId?: string }
+}) {
+  // unwrap params and searchParams (fixes: "Promise" errors)
+  const { id } = await params
+  const { attemptId } = await searchParams
+
   const supabase = await createClient()
   const {
     data: { user },
   } = await supabase.auth.getUser()
 
-  if (!user || !searchParams.attemptId) {
+  if (!user || !attemptId) {
     redirect("/student/dashboard")
   }
 
@@ -41,7 +48,7 @@ export default async function ResultsPage({
         )
       )
     `)
-    .eq("id", searchParams.attemptId)
+    .eq("id", attemptId)
     .eq("student_id", user.id)
     .single()
 
@@ -51,7 +58,7 @@ export default async function ResultsPage({
 
   return (
     <div className="min-h-screen bg-background">
-      <QuizResults attempt={attempt} quizId={params.id} />
+      <QuizResults attempt={attempt} quizId={id} />
     </div>
   )
 }

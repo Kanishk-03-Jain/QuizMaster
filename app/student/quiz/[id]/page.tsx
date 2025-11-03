@@ -2,7 +2,14 @@ import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import { QuizInterface } from "@/components/student/quiz-interface"
 
-export default async function QuizPage({ params }: { params: { id: string } }) {
+export default async function QuizPage({ 
+  params, 
+}: { 
+  params: Promise<{ id: string }> | { id: string };
+}) {
+  // unwrap params (fixes: "params is a Promise" error)
+  const { id } = await params;
+
   const supabase = await createClient()
   const {
     data: { user },
@@ -12,7 +19,7 @@ export default async function QuizPage({ params }: { params: { id: string } }) {
     redirect("/auth/login")
   }
 
-  const { data: quiz } = await supabase
+  const { data: quiz, error } = await supabase
     .from("quizzes")
     .select(`
       id,
@@ -33,9 +40,14 @@ export default async function QuizPage({ params }: { params: { id: string } }) {
         )
       )
     `)
-    .eq("id", params.id)
+    .eq("id", id)
     .eq("is_published", true)
-    .single()
+    .single();
+
+  if (error) {
+    // adjust error handling as needed
+    throw new Error(error.message);
+  }
 
   if (!quiz) {
     redirect("/student/dashboard")
