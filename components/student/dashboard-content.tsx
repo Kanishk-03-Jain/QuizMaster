@@ -179,7 +179,7 @@ export function StudentDashboardContent({ user, profile }: any) {
               <CardTitle className="text-sm font-medium text-muted-foreground">Average Score</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">{stats.averageScore}%</div>
+              <div className="text-2xl font-bold">{30}%</div>
               <p className="text-xs text-muted-foreground">Across all attempts</p>
             </CardContent>
           </Card>
