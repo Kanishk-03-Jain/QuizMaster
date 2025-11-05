@@ -1,0 +1,922 @@
+{
+  "passed": [
+    {
+      "test": "Login",
+      "status": "PASS",
+      "message": "Logged in as kanishkjain03082005@gmail.com",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard",
+      "timestamp": "2025-11-05T22:55:50.896579",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/teacher/dashboard",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard",
+      "timestamp": "2025-11-05T22:55:53.239307",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:00.467882",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:01.026870",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/sign-up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:02.661760",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:09.289597",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: fullName (type: text)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:09.866357",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:10.423925",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_4",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:10.972720",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_5",
+      "status": "PASS",
+      "message": "Input field filled: repeatPassword (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:11.532919",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/login",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:13.151520",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:19.757444",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:20.315046",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:20.868069",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/student/dashboard",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:22.878368",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:29.477629",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:30.036893",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:30.598653",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/student/join-quiz",
+      "url": "https://quiz-master-bay.vercel.app/student/join-quiz",
+      "timestamp": "2025-11-05T22:56:32.243330",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:39.443529",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:40.008128",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/sign-up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:41.635477",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:48.227691",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: fullName (type: text)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:48.813752",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:49.370994",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_4",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:49.933043",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_5",
+      "status": "PASS",
+      "message": "Input field filled: repeatPassword (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:50.491935",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/login",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:52.102586",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:58.710549",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:59.268344",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:59.821969",
+      "element_type": ""
+    },
+    {
+      "test": "Login",
+      "status": "PASS",
+      "message": "Logged in as kanishkjaincloud@gmail.com",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard",
+      "timestamp": "2025-11-05T22:57:10.695293",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/student/dashboard",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard",
+      "timestamp": "2025-11-05T22:57:12.928597",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:20.150330",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:20.712929",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/student/join-quiz",
+      "url": "https://quiz-master-bay.vercel.app/student/join-quiz",
+      "timestamp": "2025-11-05T22:57:22.325576",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:29.514849",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:30.073577",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/sign-up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:31.661388",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:38.299455",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: fullName (type: text)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:38.870328",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:39.417652",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_4",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:39.989619",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_5",
+      "status": "PASS",
+      "message": "Input field filled: repeatPassword (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:40.545879",
+      "element_type": ""
+    },
+    {
+      "test": "Explore Page",
+      "status": "PASS",
+      "message": "Visited https://quiz-master-bay.vercel.app/auth/login",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:42.150845",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "PASS",
+      "message": "Button clicked successfully: Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:48.767677",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_1",
+      "status": "PASS",
+      "message": "Input field filled: email (type: email)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:49.323588",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_2",
+      "status": "PASS",
+      "message": "Input field filled: password (type: password)",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:49.884706",
+      "element_type": ""
+    }
+  ],
+  "failed": [
+    {
+      "test": "buttons_button_1",
+      "status": "FAIL",
+      "message": "Error testing button: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900\n5   chromedriver                        0x000000010476e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084\n6   chromedriver                        0x00000001047a8aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452\n7   chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n8   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n9   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n10  chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n11  chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n12  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n13  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n14  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n15  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n16  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n17  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n18  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n19  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.881533",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_2",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.888465",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_2",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.891369",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_3",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.896255",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_3",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.898190",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_4",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.902337",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_4",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.903971",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_5",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.907724",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_5",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:59.909357",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_3",
+      "status": "FAIL",
+      "message": "Error testing input: Message: invalid element state\n  (Session info: chrome=142.0.7444.60)\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x0000000104766128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616\n3   chromedriver                        0x00000001047a57a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328\n4   chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n5   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n6   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n7   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n8   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n9   chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n10  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n11  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n12  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n13  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n14  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:10.437024",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "FAIL",
+      "message": "Error testing button: Message: stale element reference: stale element not found\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x0000000104776e20 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142472\n4   chromedriver                        0x0000000104775efc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 138596\n5   chromedriver                        0x000000010476c980 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100328\n6   chromedriver                        0x000000010476b184 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 94188\n7   chromedriver                        0x000000010476e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900\n8   chromedriver                        0x000000010476e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084\n9   chromedriver                        0x00000001047a8aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452\n10  chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n11  chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n12  chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n13  chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n14  chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n15  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n16  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n17  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n18  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n19  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n20  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n21  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n22  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:56:38.868209",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_3",
+      "status": "FAIL",
+      "message": "Error testing input: Message: invalid element state\n  (Session info: chrome=142.0.7444.60)\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x0000000104766128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616\n3   chromedriver                        0x00000001047a57a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328\n4   chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n5   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n6   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n7   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n8   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n9   chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n10  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n11  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n12  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n13  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n14  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:56:49.391398",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "FAIL",
+      "message": "Error testing button: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900\n5   chromedriver                        0x000000010476e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084\n6   chromedriver                        0x00000001047a8aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452\n7   chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n8   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n9   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n10  chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n11  chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n12  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n13  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n14  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n15  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n16  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n17  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n18  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n19  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.563386",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_2",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.569639",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_2",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.573120",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_3",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.578675",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_3",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.580609",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_4",
+      "status": "FAIL",
+      "message": "Error clicking element: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x000000010476c1f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 98396\n4   chromedriver                        0x000000010476e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600\n5   chromedriver                        0x00000001047efcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792\n6   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n7   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n8   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n9   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n10  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n11  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n12  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n13  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n14  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n15  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n16  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n17  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.584853",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_4",
+      "status": "FAIL",
+      "message": "Button click failed",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:19.586663",
+      "element_type": ""
+    },
+    {
+      "test": "buttons_button_1",
+      "status": "FAIL",
+      "message": "Error testing button: Message: stale element reference: stale element not found\n  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x00000001047662c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028\n3   chromedriver                        0x0000000104776e20 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142472\n4   chromedriver                        0x0000000104775efc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 138596\n5   chromedriver                        0x000000010476c980 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100328\n6   chromedriver                        0x000000010476b184 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 94188\n7   chromedriver                        0x000000010476e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900\n8   chromedriver                        0x000000010476e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084\n9   chromedriver                        0x00000001047a8aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452\n10  chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n11  chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n12  chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n13  chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n14  chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n15  chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n16  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n17  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n18  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n19  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n20  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n21  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n22  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:57:28.939736",
+      "element_type": ""
+    },
+    {
+      "test": "inputs_input_3",
+      "status": "FAIL",
+      "message": "Error testing input: Message: invalid element state\n  (Session info: chrome=142.0.7444.60)\nStacktrace:\n0   chromedriver                        0x0000000104c573b8 cxxbridge1$str$ptr + 2941356\n1   chromedriver                        0x0000000104c4f074 cxxbridge1$str$ptr + 2907752\n2   chromedriver                        0x0000000104766128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616\n3   chromedriver                        0x00000001047a57a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328\n4   chromedriver                        0x00000001047a352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500\n5   chromedriver                        0x00000001047eed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836\n6   chromedriver                        0x00000001047a1f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848\n7   chromedriver                        0x0000000104c197fc cxxbridge1$str$ptr + 2688496\n8   chromedriver                        0x0000000104c1d018 cxxbridge1$str$ptr + 2702860\n9   chromedriver                        0x0000000104bfa614 cxxbridge1$str$ptr + 2561032\n10  chromedriver                        0x0000000104c1d8f0 cxxbridge1$str$ptr + 2705124\n11  chromedriver                        0x0000000104bebeb4 cxxbridge1$str$ptr + 2501800\n12  chromedriver                        0x0000000104c3da20 cxxbridge1$str$ptr + 2836500\n13  chromedriver                        0x0000000104c3dba4 cxxbridge1$str$ptr + 2836888\n14  chromedriver                        0x0000000104c4ecc4 cxxbridge1$str$ptr + 2906808\n15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136\n16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8\n",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up",
+      "timestamp": "2025-11-05T22:57:39.441738",
+      "element_type": ""
+    }
+  ],
+  "warnings": [
+    {
+      "test": "Homepage Test",
+      "status": "INFO",
+      "message": "Starting homepage tests",
+      "url": "data:,",
+      "timestamp": "2025-11-05T22:55:39.473233",
+      "element_type": ""
+    },
+    {
+      "test": "Page Load: https://quiz-master-bay.vercel.app",
+      "status": "WARN",
+      "message": "Title mismatch. Expected: QuizMaster, Got: v0 App",
+      "url": "https://quiz-master-bay.vercel.app/auth/login",
+      "timestamp": "2025-11-05T22:55:43.552154",
+      "element_type": ""
+    }
+  ],
+  "tested_elements": [
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Logout",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 1,
+      "text": "Create New Quiz",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 2,
+      "text": "Overview",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 3,
+      "text": "My Quizzes",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 4,
+      "text": "Analytics",
+      "url": "https://quiz-master-bay.vercel.app/teacher/dashboard"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 2,
+      "text": "Student\nTeacher",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 3,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 4,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/student/join-quiz"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 2,
+      "text": "Student\nTeacher",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 3,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 4,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Logout",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 1,
+      "text": "Available Quizzes",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 2,
+      "text": "My Attempts",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 3,
+      "text": "Join Quiz with Code",
+      "url": "https://quiz-master-bay.vercel.app/student/dashboard"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/student/join-quiz"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign Up",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 2,
+      "text": "Student\nTeacher",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 3,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 4,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/sign-up"
+    },
+    {
+      "type": "button",
+      "selector": "button",
+      "index": 0,
+      "text": "Sign In",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 0,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    },
+    {
+      "type": "input",
+      "selector": "input, textarea, select",
+      "index": 1,
+      "text": "",
+      "url": "https://quiz-master-bay.vercel.app/auth/login"
+    }
+  ],
+  "timestamp": "2025-11-05T22:55:37.589440"
+}

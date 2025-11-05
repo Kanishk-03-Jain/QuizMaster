@@ -1,0 +1,5975 @@
+[
+  {
+    "file": "/home/g_way_shh/QuizMaster/components/teacher/edit-quiz-form.tsx",
+    "{\"pos\":3253,\"end\":4513}": {
+      "length": 80,
+      "vocabulary": 39,
+      "volume": 422.8321775089799,
+      "difficulty": 5.441176470588235,
+      "effort": 2300.704495269449,
+      "time": 127.81691640385829,
+      "bugsDelivered": 0.05809239824862482,
+      "operands": {
+        "total": 74,
+        "_unique": [
+          "i",
+          "0",
+          "questions",
+          "length",
+          "question",
+          "data",
+          "newQuestion",
+          "error",
+          "insertError",
+          "supabase",
+          "from",
+          "quiz_questions",
+          "insert",
+          "quiz_id",
+          "quiz",
+          "id",
+          "question_text",
+          "question_type",
+          "correct_answer",
+          "points",
+          "order_index",
+          "select",
+          "single",
+          "multiple_choice",
+          "question_options",
+          "optionsToInsert",
+          "filter",
+          "opt",
+          "option_text",
+          "trim",
+          "map",
+          "idx",
+          "question_id",
+          "optionsError"
+        ],
+        "unique": 34
+      },
+      "operators": {
+        "total": 6,
+        "_unique": [
+          27,
+          34,
+          53,
+          36,
+          29
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":5187,\"end\":5318}": {
+      "length": 17,
+      "vocabulary": 13,
+      "volume": 62.907475208398566,
+      "difficulty": 2.0999999999999996,
+      "effort": 132.10569793763696,
+      "time": 7.339205440979831,
+      "bugsDelivered": 0.008646223252660741,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "i",
+          "0",
+          "6",
+          "code",
+          "characters",
+          "charAt",
+          "Math",
+          "floor",
+          "random",
+          "length"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          39
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/reselect/src/lruMemoize.ts",
+    "{\"pos\":2697,\"end\":2822}": {
+      "length": 12,
+      "vocabulary": 8,
+      "volume": 36,
+      "difficulty": 1.6666666666666667,
+      "effort": 60,
+      "time": 3.3333333333333335,
+      "bugsDelivered": 0.005108729549290353,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "length",
+          "equalityCheck",
+          "prev",
+          "next"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          86
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/reselect/src/utils.ts",
+    "{\"pos\":4359,\"end\":4596}": {
+      "length": 13,
+      "vocabulary": 10,
+      "volume": 43.18506523353571,
+      "difficulty": 1.375,
+      "effort": 59.3794646961116,
+      "time": 3.2988591497839774,
+      "bugsDelivered": 0.005073444696790635,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "length",
+          "inputSelectorResults",
+          "push",
+          "dependencies",
+          "apply",
+          "inputSelectorArgs"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          95
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/reselect/src/weakMapMemoize.ts",
+    "{\"pos\":5698,\"end\":6778}": {
+      "length": 80,
+      "vocabulary": 28,
+      "volume": 384.5883937646083,
+      "difficulty": 9.833333333333332,
+      "effort": 3781.785872018648,
+      "time": 210.09921511214714,
+      "bugsDelivered": 0.08091145953387958,
+      "operands": {
+        "total": 59,
+        "_unique": [
+          "i",
+          "0",
+          "l",
+          "length",
+          "arg",
+          "arguments",
+          "function",
+          "object",
+          "objectCache",
+          "cacheNode",
+          "o",
+          "WeakMap",
+          "objectNode",
+          "get",
+          "undefined",
+          "createCacheNode",
+          "set",
+          "primitiveCache",
+          "p",
+          "Map",
+          "primitiveNode"
+        ],
+        "unique": 21
+      },
+      "operators": {
+        "total": 21,
+        "_unique": [
+          27,
+          34,
+          54,
+          53,
+          35,
+          95,
+          58
+        ],
+        "unique": 7
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/redux/src/bindActionCreators.ts",
+    "{\"pos\":2509,\"end\":2726}": {
+      "length": 14,
+      "vocabulary": 9,
+      "volume": 44.37895002019237,
+      "difficulty": 1.7142857142857142,
+      "effort": 76.07820003461549,
+      "time": 4.22656666858975,
+      "bugsDelivered": 0.0059848356844364944,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "key",
+          "actionCreators",
+          "actionCreator",
+          "function",
+          "boundActionCreators",
+          "bindActionCreator",
+          "dispatch"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          34,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/redux/src/combineReducers.ts",
+    "{\"pos\":4566,\"end\":4915}": {
+      "length": 30,
+      "vocabulary": 18,
+      "volume": 125.09775004326937,
+      "difficulty": 3.5714285714285716,
+      "effort": 446.77767872596206,
+      "time": 24.820982151442337,
+      "bugsDelivered": 0.019480782170619094,
+      "operands": {
+        "total": 25,
+        "_unique": [
+          "i",
+          "0",
+          "reducerKeys",
+          "length",
+          "key",
+          "process",
+          "env",
+          "NODE_ENV",
+          "production",
+          "reducers",
+          "undefined",
+          "warning",
+          "function",
+          "finalReducers"
+        ],
+        "unique": 14
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          27,
+          35,
+          34,
+          58
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":5881,\"end\":6765}": {
+      "length": 51,
+      "vocabulary": 30,
+      "volume": 250.25142037603445,
+      "difficulty": 8.571428571428571,
+      "effort": 2145.012174651724,
+      "time": 119.16734303620689,
+      "bugsDelivered": 0.0554411103578833,
+      "operands": {
+        "total": 40,
+        "_unique": [
+          "i",
+          "0",
+          "finalReducerKeys",
+          "length",
+          "key",
+          "reducer",
+          "finalReducers",
+          "previousStateForKey",
+          "state",
+          "nextStateForKey",
+          "action",
+          "undefined",
+          "actionType",
+          "type",
+          "Error",
+          "String",
+          "(unknown type)",
+          "To ignore an action, you must explicitly return the previous state. ",
+          "If you want this reducer to hold no value, you can return null instead of undefined.",
+          "nextState",
+          "hasChanged"
+        ],
+        "unique": 21
+      },
+      "operators": {
+        "total": 11,
+        "_unique": [
+          27,
+          34,
+          53,
+          55,
+          56,
+          37,
+          58,
+          54,
+          35
+        ],
+        "unique": 9
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/remapping/src/build-source-map-tree.ts",
+    "{\"pos\":1146,\"end\":1425}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 2.625,
+      "effort": 154.37713598168938,
+      "time": 8.5765075545383,
+      "bugsDelivered": 0.009592549854875112,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "i",
+          "0",
+          "maps",
+          "length",
+          "sources",
+          "1",
+          "Error",
+          "Did you specify these with the most recent transformation maps first?"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          29,
+          37
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":1466,\"end\":1556}": {
+      "length": 15,
+      "vocabulary": 10,
+      "volume": 49.82892142331043,
+      "difficulty": 2.571428571428571,
+      "effort": 128.13151223136967,
+      "time": 7.118417346187204,
+      "bugsDelivered": 0.008471936913892742,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "i",
+          "maps",
+          "length",
+          "1",
+          "0",
+          "tree",
+          "MapSource"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          38,
+          31,
+          58
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/remapping/src/source-map-tree.ts",
+    "{\"pos\":2739,\"end\":3866}": {
+      "length": 85,
+      "vocabulary": 41,
+      "volume": 455.39192039253714,
+      "difficulty": 13.016666666666667,
+      "effort": 5927.684830442859,
+      "time": 329.3158239134921,
+      "bugsDelivered": 0.10917808731237855,
+      "operands": {
+        "total": 71,
+        "_unique": [
+          "i",
+          "0",
+          "rootMappings",
+          "length",
+          "segments",
+          "j",
+          "segment",
+          "genCol",
+          "traced",
+          "SourceMapSegmentObject",
+          "SOURCELESS_MAPPING",
+          "1",
+          "source",
+          "rootSources",
+          "originalPositionFor",
+          "2",
+          "3",
+          "5",
+          "rootNames",
+          "4",
+          null,
+          "column",
+          "line",
+          "name",
+          "content",
+          "ignore",
+          "maybeAddSegment",
+          "gen",
+          "setSourceContent",
+          "setIgnore"
+        ],
+        "unique": 30
+      },
+      "operators": {
+        "total": 14,
+        "_unique": [
+          27,
+          95,
+          35,
+          58,
+          34,
+          55,
+          56,
+          32,
+          53,
+          33,
+          101
+        ],
+        "unique": 11
+      }
+    },
+    "{\"pos\":2828,\"end\":3862}": {
+      "length": 75,
+      "vocabulary": 40,
+      "volume": 399.1446071165522,
+      "difficulty": 11.75862068965517,
+      "effort": 4693.390035404976,
+      "time": 260.743890855832,
+      "bugsDelivered": 0.09344079179872852,
+      "operands": {
+        "total": 62,
+        "_unique": [
+          "j",
+          "0",
+          "segments",
+          "length",
+          "segment",
+          "genCol",
+          "traced",
+          "SourceMapSegmentObject",
+          "SOURCELESS_MAPPING",
+          "1",
+          "source",
+          "rootSources",
+          "originalPositionFor",
+          "2",
+          "3",
+          "5",
+          "rootNames",
+          "4",
+          null,
+          "column",
+          "line",
+          "name",
+          "content",
+          "ignore",
+          "maybeAddSegment",
+          "gen",
+          "i",
+          "setSourceContent",
+          "setIgnore"
+        ],
+        "unique": 29
+      },
+      "operators": {
+        "total": 13,
+        "_unique": [
+          27,
+          95,
+          35,
+          58,
+          34,
+          55,
+          56,
+          32,
+          53,
+          33,
+          101
+        ],
+        "unique": 11
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/gen-mapping/src/gen-mapping.ts",
+    "{\"pos\":8731,\"end\":9405}": {
+      "length": 77,
+      "vocabulary": 34,
+      "volume": 391.7346387762761,
+      "difficulty": 8.166666666666668,
+      "effort": 3199.166216672922,
+      "time": 177.731456481829,
+      "bugsDelivered": 0.07237189569560523,
+      "operands": {
+        "total": 63,
+        "_unique": [
+          "i",
+          "0",
+          "mappings",
+          "length",
+          "line",
+          "j",
+          "seg",
+          "generated",
+          "1",
+          "column",
+          "COLUMN",
+          "source",
+          "undefined",
+          "original",
+          "Pos",
+          "name",
+          "sources",
+          "array",
+          "SOURCES_INDEX",
+          "SOURCE_LINE",
+          "SOURCE_COLUMN",
+          "5",
+          "names",
+          "NAMES_INDEX",
+          "out",
+          "push",
+          "Mapping"
+        ],
+        "unique": 27
+      },
+      "operators": {
+        "total": 14,
+        "_unique": [
+          27,
+          37,
+          137,
+          140,
+          35,
+          58,
+          34
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":8808,\"end\":9401}": {
+      "length": 67,
+      "vocabulary": 33,
+      "volume": 337.9744059970164,
+      "difficulty": 7.26923076923077,
+      "effort": 2456.813951286004,
+      "time": 136.48966396033356,
+      "bugsDelivered": 0.060691367764822333,
+      "operands": {
+        "total": 54,
+        "_unique": [
+          "j",
+          "0",
+          "line",
+          "length",
+          "seg",
+          "generated",
+          "i",
+          "1",
+          "column",
+          "COLUMN",
+          "source",
+          "undefined",
+          "original",
+          "Pos",
+          "name",
+          "sources",
+          "array",
+          "SOURCES_INDEX",
+          "SOURCE_LINE",
+          "SOURCE_COLUMN",
+          "5",
+          "names",
+          "NAMES_INDEX",
+          "out",
+          "push",
+          "Mapping"
+        ],
+        "unique": 26
+      },
+      "operators": {
+        "total": 13,
+        "_unique": [
+          27,
+          37,
+          137,
+          140,
+          35,
+          58,
+          34
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":11229,\"end\":11296}": {
+      "length": 10,
+      "vocabulary": 6,
+      "volume": 25.84962500721156,
+      "difficulty": 2,
+      "effort": 51.69925001442312,
+      "time": 2.87218055635684,
+      "bugsDelivered": 0.004625956812489424,
+      "operands": {
+        "total": 8,
+        "_unique": [
+          "i",
+          "arr",
+          "length",
+          "index"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          30,
+          58
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":11426,\"end\":11553}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 2.4375,
+      "effort": 143.350197697283,
+      "time": 7.963899872071277,
+      "bugsDelivered": 0.009130143625396783,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "index",
+          "1",
+          "0",
+          "current",
+          "line",
+          "genColumn",
+          "COLUMN"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          38,
+          31,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":11630,\"end\":11710}": {
+      "length": 14,
+      "vocabulary": 8,
+      "volume": 42,
+      "difficulty": 3.3000000000000003,
+      "effort": 138.60000000000002,
+      "time": 7.700000000000001,
+      "bugsDelivered": 0.008927315815814128,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "array",
+          "length",
+          "index",
+          "1"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          29,
+          58,
+          38
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":11853,\"end\":11944}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 5,
+      "effort": 294.0516875841703,
+      "time": 16.336204865787238,
+      "bugsDelivered": 0.01473989973740389,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "i",
+          "len",
+          "1",
+          "0",
+          "mappings",
+          "length"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          38,
+          31,
+          58,
+          26,
+          29
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":12068,\"end\":12132}": {
+      "length": 11,
+      "vocabulary": 7,
+      "volume": 30.880904142633646,
+      "difficulty": 0.8333333333333334,
+      "effort": 25.73408678552804,
+      "time": 1.429671488084891,
+      "bugsDelivered": 0.002905480194944967,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "array",
+          "length",
+          "put",
+          "setarr"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/gen-mapping/src/set-array.ts",
+    "{\"pos\":2196,\"end\":2316}": {
+      "length": 20,
+      "vocabulary": 11,
+      "volume": 69.18863237274594,
+      "difficulty": 4.571428571428571,
+      "effort": 316.2908908468386,
+      "time": 17.5717161581577,
+      "bugsDelivered": 0.015474021700863181,
+      "operands": {
+        "total": 16,
+        "_unique": [
+          "i",
+          "index",
+          "1",
+          "array",
+          "length",
+          "k",
+          "indexes"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          37,
+          27,
+          38,
+          58
+        ],
+        "unique": 4
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/trace-mapping/src/binary-search.ts",
+    "{\"pos\":1368,\"end\":1481}": {
+      "length": 16,
+      "vocabulary": 11,
+      "volume": 55.35090589819676,
+      "difficulty": 3.4285714285714284,
+      "effort": 189.77453450810316,
+      "time": 10.54302969489462,
+      "bugsDelivered": 0.011007888836266837,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "i",
+          "index",
+          "1",
+          "haystack",
+          "length",
+          "COLUMN",
+          "needle"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          37,
+          27,
+          58,
+          35
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":1626,\"end\":1726}": {
+      "length": 15,
+      "vocabulary": 11,
+      "volume": 51.89147427955946,
+      "difficulty": 3.142857142857143,
+      "effort": 163.08749059290116,
+      "time": 9.060416144050064,
+      "bugsDelivered": 0.009950063342914196,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "index",
+          "1",
+          "0",
+          "haystack",
+          "COLUMN",
+          "needle"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          38,
+          31,
+          58,
+          35
+        ],
+        "unique": 4
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/trace-mapping/src/by-source.ts",
+    "{\"pos\":544,\"end\":1016}": {
+      "length": 48,
+      "vocabulary": 24,
+      "volume": 220.0782000346155,
+      "difficulty": 4.3,
+      "effort": 946.3362601488466,
+      "time": 52.57423667493592,
+      "bugsDelivered": 0.03212987721869124,
+      "operands": {
+        "total": 43,
+        "_unique": [
+          "i",
+          "0",
+          "decoded",
+          "length",
+          "line",
+          "j",
+          "seg",
+          "1",
+          "sourceIndex",
+          "SOURCES_INDEX",
+          "sourceLine",
+          "SOURCE_LINE",
+          "sourceColumn",
+          "SOURCE_COLUMN",
+          "source",
+          "sources",
+          "segs",
+          "",
+          "push",
+          "COLUMN"
+        ],
+        "unique": 20
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          27,
+          34,
+          54,
+          58
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":619,\"end\":1012}": {
+      "length": 38,
+      "vocabulary": 23,
+      "volume": 171.8953543301665,
+      "difficulty": 3.5789473684210527,
+      "effort": 615.2044260237537,
+      "time": 34.17802366798632,
+      "bugsDelivered": 0.0241115453610186,
+      "operands": {
+        "total": 34,
+        "_unique": [
+          "j",
+          "0",
+          "line",
+          "length",
+          "seg",
+          "1",
+          "sourceIndex",
+          "SOURCES_INDEX",
+          "sourceLine",
+          "SOURCE_LINE",
+          "sourceColumn",
+          "SOURCE_COLUMN",
+          "source",
+          "sources",
+          "segs",
+          "",
+          "push",
+          "i",
+          "COLUMN"
+        ],
+        "unique": 19
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          34,
+          54,
+          58
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":1016,\"end\":1222}": {
+      "length": 24,
+      "vocabulary": 10,
+      "volume": 79.7262742772967,
+      "difficulty": 1.2222222222222223,
+      "effort": 97.44322411669597,
+      "time": 5.413512450927554,
+      "bugsDelivered": 0.007058512291797309,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "i",
+          "0",
+          "sources",
+          "length",
+          "source",
+          "j",
+          "line",
+          "sort",
+          "sortComparator"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":1093,\"end\":1218}": {
+      "length": 14,
+      "vocabulary": 8,
+      "volume": 42,
+      "difficulty": 0.9285714285714286,
+      "effort": 39,
+      "time": 2.1666666666666665,
+      "bugsDelivered": 0.0038334383504100753,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "j",
+          "0",
+          "source",
+          "length",
+          "line",
+          "sort",
+          "sortComparator"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/trace-mapping/src/flatten-map.ts",
+    "{\"pos\":1801,\"end\":2501}": {
+      "length": 75,
+      "vocabulary": 29,
+      "volume": 364.3485746345679,
+      "difficulty": 4.88,
+      "effort": 1778.0210442166913,
+      "time": 98.7789469009273,
+      "bugsDelivered": 0.048921903111950625,
+      "operands": {
+        "total": 61,
+        "_unique": [
+          "i",
+          "0",
+          "sections",
+          "length",
+          "map",
+          "offset",
+          "sl",
+          "stopLine",
+          "sc",
+          "stopColumn",
+          "1",
+          "nextOffset",
+          "Math",
+          "min",
+          "lineOffset",
+          "line",
+          "columnOffset",
+          "column",
+          "addSection",
+          "mapUrl",
+          "mappings",
+          "sources",
+          "sourcesContent",
+          "names",
+          "ignoreList"
+        ],
+        "unique": 25
+      },
+      "operators": {
+        "total": 14,
+        "_unique": [
+          27,
+          37,
+          58,
+          34
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":3318,\"end\":3394}": {
+      "length": 10,
+      "vocabulary": 8,
+      "volume": 30,
+      "difficulty": 1.3333333333333333,
+      "effort": 40,
+      "time": 2.2222222222222223,
+      "bugsDelivered": 0.003898690317617154,
+      "operands": {
+        "total": 8,
+        "_unique": [
+          "i",
+          "0",
+          "resolvedSources",
+          "length",
+          "sourcesContent",
+          "push"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          95
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":3410,\"end\":3496}": {
+      "length": 13,
+      "vocabulary": 9,
+      "volume": 41.209025018750054,
+      "difficulty": 1.5714285714285714,
+      "effort": 64.75703931517866,
+      "time": 3.597613295287703,
+      "bugsDelivered": 0.005375308590976979,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "ignores",
+          "length",
+          "ignoreList",
+          "push",
+          "sourcesOffset"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          37
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":3496,\"end\":5172}": {
+      "length": 89,
+      "vocabulary": 38,
+      "volume": 467.0655486964791,
+      "difficulty": 9.6,
+      "effort": 4483.829267486199,
+      "time": 249.1016259714555,
+      "bugsDelivered": 0.09063823854628261,
+      "operands": {
+        "total": 72,
+        "_unique": [
+          "i",
+          "0",
+          "decoded",
+          "length",
+          "lineI",
+          "lineOffset",
+          "stopLine",
+          "out",
+          "getLine",
+          "mappings",
+          "cOffset",
+          "columnOffset",
+          "line",
+          "j",
+          "seg",
+          "column",
+          "COLUMN",
+          "stopColumn",
+          "1",
+          "push",
+          "sourcesIndex",
+          "sourcesOffset",
+          "SOURCES_INDEX",
+          "sourceLine",
+          "SOURCE_LINE",
+          "sourceColumn",
+          "SOURCE_COLUMN",
+          "4",
+          "namesOffset",
+          "NAMES_INDEX"
+        ],
+        "unique": 30
+      },
+      "operators": {
+        "total": 17,
+        "_unique": [
+          27,
+          37,
+          29,
+          34,
+          55,
+          56,
+          53,
+          31
+        ],
+        "unique": 8
+      }
+    },
+    "{\"pos\":4417,\"end\":5168}": {
+      "length": 60,
+      "vocabulary": 31,
+      "volume": 297.2517786232125,
+      "difficulty": 7.145833333333333,
+      "effort": 2124.1116680783725,
+      "time": 118.0062037821318,
+      "bugsDelivered": 0.0550803859877393,
+      "operands": {
+        "total": 49,
+        "_unique": [
+          "j",
+          "0",
+          "line",
+          "length",
+          "seg",
+          "column",
+          "cOffset",
+          "COLUMN",
+          "lineI",
+          "stopLine",
+          "stopColumn",
+          "1",
+          "out",
+          "push",
+          "sourcesIndex",
+          "sourcesOffset",
+          "SOURCES_INDEX",
+          "sourceLine",
+          "SOURCE_LINE",
+          "sourceColumn",
+          "SOURCE_COLUMN",
+          "4",
+          "namesOffset",
+          "NAMES_INDEX"
+        ],
+        "unique": 24
+      },
+      "operators": {
+        "total": 11,
+        "_unique": [
+          27,
+          37,
+          34,
+          53,
+          31,
+          55,
+          56
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":5218,\"end\":5279}": {
+      "length": 11,
+      "vocabulary": 7,
+      "volume": 30.880904142633646,
+      "difficulty": 0.8333333333333334,
+      "effort": 25.73408678552804,
+      "time": 1.429671488084891,
+      "bugsDelivered": 0.002905480194944967,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "other",
+          "length",
+          "arr",
+          "push"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":5336,\"end\":5393}": {
+      "length": 10,
+      "vocabulary": 6,
+      "volume": 25.84962500721156,
+      "difficulty": 2,
+      "effort": 51.69925001442312,
+      "time": 2.87218055635684,
+      "bugsDelivered": 0.004625956812489424,
+      "operands": {
+        "total": 8,
+        "_unique": [
+          "i",
+          "arr",
+          "length",
+          "index"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          30,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/trace-mapping/src/sort.ts",
+    "{\"pos\":565,\"end\":721}": {
+      "length": 20,
+      "vocabulary": 11,
+      "volume": 69.18863237274594,
+      "difficulty": 3,
+      "effort": 207.56589711823784,
+      "time": 11.531438728790992,
+      "bugsDelivered": 0.011685556848225124,
+      "operands": {
+        "total": 16,
+        "_unique": [
+          "i",
+          "unsortedIndex",
+          "mappings",
+          "length",
+          "nextUnsortedSegmentLine",
+          "1",
+          "sortSegments",
+          "owned"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          58,
+          37
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":833,\"end\":929}": {
+      "length": 11,
+      "vocabulary": 6,
+      "volume": 28.43458750793272,
+      "difficulty": 1,
+      "effort": 28.43458750793272,
+      "time": 1.579699305996262,
+      "bugsDelivered": 0.0031053462642364575,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "start",
+          "mappings",
+          "length",
+          "isSorted"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":1013,\"end\":1134}": {
+      "length": 17,
+      "vocabulary": 8,
+      "volume": 51,
+      "difficulty": 3.9000000000000004,
+      "effort": 198.9,
+      "time": 11.05,
+      "bugsDelivered": 0.011358001822390494,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "j",
+          "1",
+          "line",
+          "length",
+          "COLUMN"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          38,
+          86
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/trace-mapping/src/trace-mapping.ts",
+    "{\"pos\":7896,\"end\":8597}": {
+      "length": 71,
+      "vocabulary": 28,
+      "volume": 341.32219946608984,
+      "difficulty": 7.7727272727272725,
+      "effort": 2653.0043685773344,
+      "time": 147.3891315876297,
+      "bugsDelivered": 0.06388085526394055,
+      "operands": {
+        "total": 57,
+        "_unique": [
+          "i",
+          "0",
+          "decoded",
+          "length",
+          "line",
+          "j",
+          "seg",
+          "generatedLine",
+          "1",
+          "generatedColumn",
+          "source",
+          "originalLine",
+          "originalColumn",
+          "name",
+          "resolvedSources",
+          "2",
+          "3",
+          "5",
+          "names",
+          "4",
+          "cb",
+          "EachMapping"
+        ],
+        "unique": 22
+      },
+      "operators": {
+        "total": 14,
+        "_unique": [
+          27,
+          37,
+          95,
+          35,
+          58,
+          34
+        ],
+        "unique": 6
+      }
+    },
+    "{\"pos\":7971,\"end\":8593}": {
+      "length": 61,
+      "vocabulary": 27,
+      "volume": 290.04813763197154,
+      "difficulty": 6.857142857142857,
+      "effort": 1988.901515190662,
+      "time": 110.49452862170344,
+      "bugsDelivered": 0.052717434165940255,
+      "operands": {
+        "total": 48,
+        "_unique": [
+          "j",
+          "0",
+          "line",
+          "length",
+          "seg",
+          "generatedLine",
+          "i",
+          "1",
+          "generatedColumn",
+          "source",
+          "originalLine",
+          "originalColumn",
+          "name",
+          "resolvedSources",
+          "2",
+          "3",
+          "5",
+          "names",
+          "4",
+          "cb",
+          "EachMapping"
+        ],
+        "unique": 21
+      },
+      "operators": {
+        "total": 13,
+        "_unique": [
+          27,
+          37,
+          95,
+          35,
+          58,
+          34
+        ],
+        "unique": 6
+      }
+    },
+    "{\"pos\":13712,\"end\":13872}": {
+      "length": 16,
+      "vocabulary": 12,
+      "volume": 57.3594000115385,
+      "difficulty": 1.4,
+      "effort": 80.3031600161539,
+      "time": 4.461286667564106,
+      "bugsDelivered": 0.006204410188266558,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "min",
+          "max",
+          "segment",
+          "segments",
+          "result",
+          "push",
+          "GMapping",
+          "REV_GENERATED_LINE",
+          "1",
+          "REV_GENERATED_COLUMN"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          30,
+          37
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/createSlice.ts",
+    "{\"pos\":20066,\"end\":20196}": {
+      "length": 9,
+      "vocabulary": 6,
+      "volume": 23.264662506490403,
+      "difficulty": 0.8,
+      "effort": 18.611730005192324,
+      "time": 1.0339850002884625,
+      "bugsDelivered": 0.002341009850357244,
+      "operands": {
+        "total": 8,
+        "_unique": [
+          "key",
+          "finalCaseReducers",
+          "builder",
+          "addCase",
+          "CaseReducer"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          119
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/immutableStateInvariantMiddleware.ts",
+    "{\"pos\":1191,\"end\":1514}": {
+      "length": 30,
+      "vocabulary": 19,
+      "volume": 127.43782540330756,
+      "difficulty": 5.3076923076923075,
+      "effort": 676.4007656021708,
+      "time": 37.57782031123171,
+      "bugsDelivered": 0.025685112500899335,
+      "operands": {
+        "total": 23,
+        "_unique": [
+          "key",
+          "obj",
+          "childPath",
+          "path",
+          ".",
+          "ignorePaths",
+          "length",
+          "indexOf",
+          "1",
+          "tracked",
+          "children",
+          "trackProperties",
+          "isImmutable"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          55,
+          37,
+          56,
+          53,
+          35,
+          58
+        ],
+        "unique": 6
+      }
+    },
+    "{\"pos\":2197,\"end\":2276}": {
+      "length": 7,
+      "vocabulary": 6,
+      "volume": 18.094737505048094,
+      "difficulty": 1.25,
+      "effort": 22.61842188131012,
+      "time": 1.2565789934061178,
+      "bugsDelivered": 0.0026659598967245317,
+      "operands": {
+        "total": 5,
+        "_unique": [
+          "key",
+          "trackedProperty",
+          "children",
+          "keysToDetect"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          58,
+          101
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":2276,\"end\":2334}": {
+      "length": 6,
+      "vocabulary": 5,
+      "volume": 13.931568569324174,
+      "difficulty": 1.3333333333333333,
+      "effort": 18.575424759098897,
+      "time": 1.0319680421721609,
+      "bugsDelivered": 0.002337964509447503,
+      "operands": {
+        "total": 4,
+        "_unique": [
+          "key",
+          "obj",
+          "keysToDetect"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          58,
+          101
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":2385,\"end\":2982}": {
+      "length": 42,
+      "vocabulary": 26,
+      "volume": 197.41846816192586,
+      "difficulty": 5.25,
+      "effort": 1036.4469578501107,
+      "time": 57.58038654722837,
+      "bugsDelivered": 0.034138423843257895,
+      "operands": {
+        "total": 35,
+        "_unique": [
+          "key",
+          "keysToDetect",
+          "nestedPath",
+          "path",
+          ".",
+          "hasIgnoredPaths",
+          "hasMatches",
+          "ignoredPaths",
+          "some",
+          "ignored",
+          "RegExp",
+          "test",
+          "result",
+          "detectMutations",
+          "isImmutable",
+          "trackedProperty",
+          "children",
+          "obj",
+          "sameRef",
+          "wasMutated"
+        ],
+        "unique": 20
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          55,
+          37,
+          56,
+          36,
+          93,
+          34
+        ],
+        "unique": 6
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/sourcemap-codec/src/scopes.ts",
+    "{\"pos\":1109,\"end\":1969}": {
+      "length": 88,
+      "vocabulary": 30,
+      "volume": 431.80637241354964,
+      "difficulty": 7.9,
+      "effort": 3411.2703420670423,
+      "time": 189.51501900372457,
+      "bugsDelivered": 0.07553638052747359,
+      "operands": {
+        "total": 79,
+        "_unique": [
+          "reader",
+          "pos",
+          "length",
+          "line",
+          "decodeInteger",
+          "column",
+          "0",
+          "hasMoreVlq",
+          "last",
+          "stack",
+          "pop",
+          "2",
+          "3",
+          "kind",
+          "fields",
+          "hasName",
+          "1",
+          "scope",
+          "OriginalScope",
+          "vars",
+          "Var",
+          "EMPTY",
+          "varsIndex",
+          "push",
+          "scopes"
+        ],
+        "unique": 25
+      },
+      "operators": {
+        "total": 9,
+        "_unique": [
+          27,
+          58,
+          48,
+          55,
+          56
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":2099,\"end\":2200}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 1.8333333333333333,
+      "effort": 71.5,
+      "time": 3.9722222222222223,
+      "bugsDelivered": 0.005742258947642964,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "scopes",
+          "length",
+          "_encodeOriginalScopes",
+          "writer"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":2889,\"end\":3146}": {
+      "length": 31,
+      "vocabulary": 20,
+      "volume": 133.97977094150824,
+      "difficulty": 6.461538461538462,
+      "effort": 865.7154430066686,
+      "time": 48.095302389259366,
+      "bugsDelivered": 0.03027811646004643,
+      "operands": {
+        "total": 24,
+        "_unique": [
+          "index",
+          "scopes",
+          "length",
+          "next",
+          "0",
+          "l",
+          "1",
+          "c",
+          "endLine",
+          "endColumn",
+          "_encodeOriginalScopes",
+          "writer",
+          "state"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          27,
+          29,
+          54,
+          34,
+          53,
+          31,
+          58
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":3789,\"end\":6500}": {
+      "length": 211,
+      "vocabulary": 55,
+      "volume": 1219.8668995537032,
+      "difficulty": 16.532608695652172,
+      "effort": 20167.582111099808,
+      "time": 1120.4212283944337,
+      "bugsDelivered": 0.24697214166972173,
+      "operands": {
+        "total": 169,
+        "_unique": [
+          "reader",
+          "pos",
+          "semi",
+          "genColumn",
+          "decodeInteger",
+          "hasMoreVlq",
+          "last",
+          "stack",
+          "pop",
+          "2",
+          "genLine",
+          "3",
+          "fields",
+          "0",
+          "hasDefinition",
+          "1",
+          "hasCallsite",
+          "hasScope",
+          "4",
+          "callsite",
+          "CallSite",
+          "bindings",
+          "Binding",
+          "EMPTY",
+          "range",
+          "GeneratedRange",
+          "defSourcesIndex",
+          "definitionSourcesIndex",
+          "definitionScopeIndex",
+          "isScope",
+          "prevCsi",
+          "callsiteSourcesIndex",
+          "prevLine",
+          "callsiteLine",
+          "sameSource",
+          "callsiteColumn",
+          "bindingLine",
+          "bindingColumn",
+          "expressionsCount",
+          "expressionRanges",
+          "BindingExpressionRange",
+          "i",
+          "prevBl",
+          "expression",
+          "push",
+          "ranges"
+        ],
+        "unique": 46
+      },
+      "operators": {
+        "total": 42,
+        "_unique": [
+          27,
+          58,
+          48,
+          95,
+          34,
+          55,
+          56,
+          53,
+          29
+        ],
+        "unique": 9
+      }
+    },
+    "{\"pos\":5817,\"end\":6230}": {
+      "length": 33,
+      "vocabulary": 17,
+      "volume": 134.88627376126118,
+      "difficulty": 5.625,
+      "effort": 758.7352899070942,
+      "time": 42.15196055039412,
+      "bugsDelivered": 0.027729301813046413,
+      "operands": {
+        "total": 27,
+        "_unique": [
+          "i",
+          "1",
+          "expressionsCount",
+          "prevBl",
+          "bindingLine",
+          "decodeInteger",
+          "reader",
+          "bindingColumn",
+          "0",
+          "expression",
+          "expressionRanges",
+          "push"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 6,
+        "_unique": [
+          29,
+          58,
+          34,
+          55,
+          56
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":6747,\"end\":6867}": {
+      "length": 19,
+      "vocabulary": 8,
+      "volume": 57,
+      "difficulty": 2.8333333333333335,
+      "effort": 161.5,
+      "time": 8.972222222222221,
+      "bugsDelivered": 0.009885388980601902,
+      "operands": {
+        "total": 17,
+        "_unique": [
+          "i",
+          "0",
+          "ranges",
+          "length",
+          "_encodeGeneratedRanges",
+          "writer"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":8756,\"end\":9066}": {
+      "length": 29,
+      "vocabulary": 13,
+      "volume": 107.31275182609167,
+      "difficulty": 2.3636363636363638,
+      "effort": 253.64832249803487,
+      "time": 14.091573472113048,
+      "bugsDelivered": 0.013356727783060036,
+      "operands": {
+        "total": 26,
+        "_unique": [
+          "i",
+          "1",
+          "binding",
+          "length",
+          "expRange",
+          "bindingStartLine",
+          "encodeInteger",
+          "writer",
+          "bindingStartColumn",
+          "2",
+          "0"
+        ],
+        "unique": 11
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":9076,\"end\":9334}": {
+      "length": 31,
+      "vocabulary": 20,
+      "volume": 133.97977094150824,
+      "difficulty": 6.461538461538462,
+      "effort": 865.7154430066686,
+      "time": 48.095302389259366,
+      "bugsDelivered": 0.03027811646004643,
+      "operands": {
+        "total": 24,
+        "_unique": [
+          "index",
+          "ranges",
+          "length",
+          "next",
+          "0",
+          "l",
+          "1",
+          "c",
+          "endLine",
+          "endColumn",
+          "_encodeGeneratedRanges",
+          "writer",
+          "state"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          27,
+          29,
+          54,
+          34,
+          53,
+          31,
+          58
+        ],
+        "unique": 7
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/sourcemap-codec/src/sourcemap-codec.ts",
+    "{\"pos\":2451,\"end\":3174}": {
+      "length": 81,
+      "vocabulary": 25,
+      "volume": 376.1523513717527,
+      "difficulty": 6.571428571428571,
+      "effort": 2471.8583090143748,
+      "time": 137.3254616119097,
+      "bugsDelivered": 0.06093887892705069,
+      "operands": {
+        "total": 69,
+        "_unique": [
+          "i",
+          "0",
+          "decoded",
+          "length",
+          "line",
+          "writer",
+          "write",
+          "semicolon",
+          "genColumn",
+          "j",
+          "segment",
+          "comma",
+          "encodeInteger",
+          "1",
+          "sourcesIndex",
+          "sourceLine",
+          "2",
+          "sourceColumn",
+          "3",
+          "4",
+          "namesIndex"
+        ],
+        "unique": 21
+      },
+      "operators": {
+        "total": 12,
+        "_unique": [
+          27,
+          29,
+          34,
+          58
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":2627,\"end\":3170}": {
+      "length": 59,
+      "vocabulary": 22,
+      "volume": 263.1064654996005,
+      "difficulty": 5.555555555555555,
+      "effort": 1461.7025861088916,
+      "time": 81.20569922827175,
+      "bugsDelivered": 0.04293235931973216,
+      "operands": {
+        "total": 50,
+        "_unique": [
+          "j",
+          "0",
+          "line",
+          "length",
+          "segment",
+          "writer",
+          "write",
+          "comma",
+          "genColumn",
+          "encodeInteger",
+          "1",
+          "sourcesIndex",
+          "sourceLine",
+          "2",
+          "sourceColumn",
+          "3",
+          "4",
+          "namesIndex"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 9,
+        "_unique": [
+          27,
+          29,
+          58,
+          34
+        ],
+        "unique": 4
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/sourcemap-codec/src/strings.ts",
+    "{\"pos\":472,\"end\":587}": {
+      "length": 13,
+      "vocabulary": 9,
+      "volume": 41.209025018750054,
+      "difficulty": 1.5714285714285714,
+      "effort": 64.75703931517866,
+      "time": 3.597613295287703,
+      "bugsDelivered": 0.005375308590976979,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "buf",
+          "length",
+          "out",
+          "String",
+          "fromCharCode"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          59
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@jridgewell/sourcemap-codec/src/vlq.ts",
+    "{\"pos\":327,\"end\":465}": {
+      "length": 19,
+      "vocabulary": 10,
+      "volume": 63.11663380285988,
+      "difficulty": 2,
+      "effort": 126.23326760571976,
+      "time": 7.012959311428876,
+      "bugsDelivered": 0.008388055489567838,
+      "operands": {
+        "total": 16,
+        "_unique": [
+          "i",
+          "0",
+          "chars",
+          "length",
+          "c",
+          "charCodeAt",
+          "intToChar",
+          "charToInt"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/auth-js/src/GoTrueClient.ts",
+    "{\"pos\":84589,\"end\":84687}": {
+      "length": 13,
+      "vocabulary": 9,
+      "volume": 41.209025018750054,
+      "difficulty": 1.5714285714285714,
+      "effort": 64.75703931517866,
+      "time": 3.597613295287703,
+      "bugsDelivered": 0.005375308590976979,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "errors",
+          "length",
+          "1",
+          "console",
+          "error"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          59
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/realtime-js/src/RealtimeChannel.ts",
+    "{\"pos\":9230,\"end\":10377}": {
+      "length": 64,
+      "vocabulary": 31,
+      "volume": 317.06856386476,
+      "difficulty": 7.145833333333333,
+      "effort": 2265.7191126169305,
+      "time": 125.87328403427392,
+      "bugsDelivered": 0.057501978871064396,
+      "operands": {
+        "total": 49,
+        "_unique": [
+          "i",
+          "0",
+          "bindingsLen",
+          "clientPostgresBinding",
+          "clientPostgresBindings",
+          "filter",
+          "event",
+          "schema",
+          "table",
+          "serverPostgresFilter",
+          "postgres_changes",
+          "newPostgresBindings",
+          "push",
+          "id",
+          "unsubscribe",
+          "state",
+          "CHANNEL_STATES",
+          "errored",
+          "callback",
+          "",
+          "REALTIME_SUBSCRIBE_STATES",
+          "CHANNEL_ERROR",
+          "Error",
+          "mismatch between server and client bindings for postgres changes"
+        ],
+        "unique": 24
+      },
+      "operators": {
+        "total": 15,
+        "_unique": [
+          27,
+          53,
+          34,
+          99,
+          58,
+          55,
+          56
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":28149,\"end\":28246}": {
+      "length": 8,
+      "vocabulary": 5,
+      "volume": 18.575424759098897,
+      "difficulty": 2,
+      "effort": 37.150849518197795,
+      "time": 2.0639360843443217,
+      "bugsDelivered": 0.003711287321761282,
+      "operands": {
+        "total": 6,
+        "_unique": [
+          "k",
+          "obj1",
+          "obj2"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          35,
+          86
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/ssr/src/cookies.ts",
+    "{\"pos\":2302,\"end\":2572}": {
+      "length": 25,
+      "vocabulary": 16,
+      "volume": 100,
+      "difficulty": 3.5,
+      "effort": 350,
+      "time": 19.444444444444443,
+      "bugsDelivered": 0.016554806472987807,
+      "operands": {
+        "total": 21,
+        "_unique": [
+          "i",
+          "0",
+          "chunkNames",
+          "length",
+          "1",
+          "value",
+          "cookies",
+          "get",
+          "string",
+          "chunks",
+          "push",
+          "name"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          59,
+          53,
+          35
+        ],
+        "unique": 4
+      }
+    },
+    "{\"pos\":2828,\"end\":3128}": {
+      "length": 24,
+      "vocabulary": 13,
+      "volume": 88.81055323538621,
+      "difficulty": 2,
+      "effort": 177.62110647077242,
+      "time": 9.867839248376246,
+      "bugsDelivered": 0.010532750402132621,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "i",
+          "0",
+          "setCookies",
+          "length",
+          "1",
+          "name",
+          "value",
+          "options",
+          "cookies",
+          "set",
+          "remove"
+        ],
+        "unique": 11
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          59
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/immer/src/core/immerClass.ts",
+    "{\"pos\":5674,\"end\":5850}": {
+      "length": 27,
+      "vocabulary": 16,
+      "volume": 108,
+      "difficulty": 4.545454545454545,
+      "effort": 490.9090909090909,
+      "time": 27.27272727272727,
+      "bugsDelivered": 0.020743377058698494,
+      "operands": {
+        "total": 20,
+        "_unique": [
+          "i",
+          "patches",
+          "length",
+          "1",
+          "0",
+          "patch",
+          "path",
+          "op",
+          "replace",
+          "base",
+          "value"
+        ],
+        "unique": 11
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          58,
+          38,
+          31,
+          34,
+          53
+        ],
+        "unique": 5
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/immer/src/plugins/patches.ts",
+    "{\"pos\":1763,\"end\":2283}": {
+      "length": 37,
+      "vocabulary": 19,
+      "volume": 157.17331799741265,
+      "difficulty": 3.1875,
+      "effort": 500.9899511167528,
+      "time": 27.832775062041822,
+      "bugsDelivered": 0.021026391921282445,
+      "operands": {
+        "total": 34,
+        "_unique": [
+          "i",
+          "0",
+          "base_",
+          "length",
+          "assigned_",
+          "copy_",
+          "path",
+          "basePath",
+          "concat",
+          "patches",
+          "push",
+          "op",
+          "REPLACE",
+          "value",
+          "clonePatchValueIfNeeded",
+          "inversePatches"
+        ],
+        "unique": 16
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          53,
+          35
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":2283,\"end\":2638}": {
+      "length": 21,
+      "vocabulary": 14,
+      "volume": 79.9544533632097,
+      "difficulty": 0.7692307692307693,
+      "effort": 61.50342566400746,
+      "time": 3.4168569813337477,
+      "bugsDelivered": 0.005193717011760526,
+      "operands": {
+        "total": 20,
+        "_unique": [
+          "i",
+          "base_",
+          "length",
+          "copy_",
+          "path",
+          "basePath",
+          "concat",
+          "patches",
+          "push",
+          "op",
+          "ADD",
+          "value",
+          "clonePatchValueIfNeeded"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":2638,\"end\":2794}": {
+      "length": 19,
+      "vocabulary": 14,
+      "volume": 72.33974351909448,
+      "difficulty": 1.4166666666666667,
+      "effort": 102.4813033187172,
+      "time": 5.693405739928733,
+      "bugsDelivered": 0.007299758714946335,
+      "operands": {
+        "total": 17,
+        "_unique": [
+          "i",
+          "copy_",
+          "length",
+          "1",
+          "base_",
+          "path",
+          "basePath",
+          "concat",
+          "inversePatches",
+          "push",
+          "op",
+          "REMOVE"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          38,
+          30
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":4795,\"end\":5373}": {
+      "length": 74,
+      "vocabulary": 35,
+      "volume": 379.5669432539275,
+      "difficulty": 7.703703703703703,
+      "effort": 2924.0712665487745,
+      "time": 162.44840369715413,
+      "bugsDelivered": 0.06816122401707367,
+      "operands": {
+        "total": 52,
+        "_unique": [
+          "i",
+          "0",
+          "path",
+          "length",
+          "1",
+          "parentType",
+          "getArchtype",
+          "base",
+          "p",
+          "string",
+          "number",
+          null,
+          "ArchType",
+          "Object",
+          "Array",
+          "__proto__",
+          "constructor",
+          "die",
+          "errorOffset",
+          "3",
+          "function",
+          "prototype",
+          "get",
+          "object",
+          "2",
+          "join",
+          "/"
+        ],
+        "unique": 27
+      },
+      "operators": {
+        "total": 22,
+        "_unique": [
+          27,
+          38,
+          35,
+          53,
+          58,
+          37,
+          34,
+          54
+        ],
+        "unique": 8
+      }
+    },
+    "{\"pos\":7394,\"end\":7463}": {
+      "length": 8,
+      "vocabulary": 5,
+      "volume": 18.575424759098897,
+      "difficulty": 0.875,
+      "effort": 16.253496664211536,
+      "time": 0.9029720369006409,
+      "bugsDelivered": 0.002138831719813076,
+      "operands": {
+        "total": 7,
+        "_unique": [
+          "key",
+          "obj",
+          "cloned",
+          "deepClonePatchValue"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/immer/src/utils/common.ts",
+    "{\"pos\":4679,\"end\":5301}": {
+      "length": 44,
+      "vocabulary": 21,
+      "volume": 193.26196660226546,
+      "difficulty": 8,
+      "effort": 1546.0957328181237,
+      "time": 85.89420737878464,
+      "bugsDelivered": 0.04456935334450038,
+      "operands": {
+        "total": 32,
+        "_unique": [
+          "i",
+          "0",
+          "keys",
+          "length",
+          "key",
+          "desc",
+          "descriptors",
+          "writable",
+          "configurable",
+          "get",
+          "set",
+          "enumerable",
+          "value",
+          "base"
+        ],
+        "unique": 14
+      },
+      "operators": {
+        "total": 12,
+        "_unique": [
+          27,
+          119,
+          34,
+          86,
+          58,
+          101,
+          54
+        ],
+        "unique": 7
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/helpers/createGetModifiers.ts",
+    "{\"pos\":3454,\"end\":3673}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 2.625,
+      "effort": 154.37713598168938,
+      "time": 8.5765075545383,
+      "bugsDelivered": 0.009592549854875112,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "name",
+          "internalModifiersMap",
+          "days",
+          "DayFlag",
+          "dayFlags",
+          "some",
+          "d",
+          "day"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          58,
+          36,
+          34
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":3673,\"end\":3803}": {
+      "length": 13,
+      "vocabulary": 9,
+      "volume": 41.209025018750054,
+      "difficulty": 2.5,
+      "effort": 103.02256254687514,
+      "time": 5.7234756970486185,
+      "bugsDelivered": 0.007325438794008513,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "name",
+          "customModifiersMap",
+          "customModifiers",
+          "some",
+          "d",
+          "day"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          58,
+          36,
+          34
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/helpers/getDates.ts",
+    "{\"pos\":1793,\"end\":1971}": {
+      "length": 18,
+      "vocabulary": 12,
+      "volume": 64.5293250129808,
+      "difficulty": 1.6,
+      "effort": 103.2469200207693,
+      "time": 5.73594000115385,
+      "bugsDelivered": 0.007336070257968835,
+      "operands": {
+        "total": 16,
+        "_unique": [
+          "i",
+          "0",
+          "nOfDays",
+          "date",
+          "addDays",
+          "startWeekFirstDate",
+          "maxDate",
+          "isAfter",
+          "dates",
+          "push"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          30,
+          53
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":2254,\"end\":2382}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 1.6666666666666667,
+      "effort": 98.01722919472343,
+      "time": 5.445401621929079,
+      "bugsDelivered": 0.007086204687548348,
+      "operands": {
+        "total": 15,
+        "_unique": [
+          "i",
+          "0",
+          "daysToAdd",
+          "date",
+          "addDays",
+          "dates",
+          "length",
+          "1",
+          "push"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          38
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/helpers/getDefaultClassNames.ts",
+    "{\"pos\":510,\"end\":629}": {
+      "length": 10,
+      "vocabulary": 4,
+      "volume": 20,
+      "difficulty": 1.5,
+      "effort": 30,
+      "time": 1.6666666666666667,
+      "bugsDelivered": 0.003218297948685432,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "UI",
+          "classNames"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":629,\"end\":773}": {
+      "length": 10,
+      "vocabulary": 4,
+      "volume": 20,
+      "difficulty": 1.5,
+      "effort": 30,
+      "time": 1.6666666666666667,
+      "bugsDelivered": 0.003218297948685432,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "DayFlag",
+          "classNames"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":773,\"end\":952}": {
+      "length": 10,
+      "vocabulary": 4,
+      "volume": 20,
+      "difficulty": 1.5,
+      "effort": 30,
+      "time": 1.6666666666666667,
+      "bugsDelivered": 0.003218297948685432,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "SelectionState",
+          "classNames"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":952,\"end\":1106}": {
+      "length": 10,
+      "vocabulary": 4,
+      "volume": 20,
+      "difficulty": 1.5,
+      "effort": 30,
+      "time": 1.6666666666666667,
+      "bugsDelivered": 0.003218297948685432,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "Animation",
+          "classNames"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/helpers/getDisplayMonths.ts",
+    "{\"pos\":776,\"end\":985}": {
+      "length": 19,
+      "vocabulary": 13,
+      "volume": 70.30835464468075,
+      "difficulty": 2.4000000000000004,
+      "effort": 168.74005114723383,
+      "time": 9.374447285957435,
+      "bugsDelivered": 0.010178665979170519,
+      "operands": {
+        "total": 16,
+        "_unique": [
+          "i",
+          "0",
+          "numberOfMonths",
+          "month",
+          "dateLib",
+          "addMonths",
+          "firstDisplayedMonth",
+          "calendarEndMonth",
+          "months",
+          "push"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          53,
+          29
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/helpers/getWeekdays.ts",
+    "{\"pos\":930,\"end\":1029}": {
+      "length": 14,
+      "vocabulary": 10,
+      "volume": 46.50699332842307,
+      "difficulty": 0.7222222222222222,
+      "effort": 33.58838407052777,
+      "time": 1.866021337251543,
+      "bugsDelivered": 0.0034700693337677813,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "7",
+          "day",
+          "dateLib",
+          "addDays",
+          "start",
+          "days",
+          "push"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/classes/DateLib.ts",
+    "{\"pos\":3473,\"end\":3566}": {
+      "length": 13,
+      "vocabulary": 9,
+      "volume": 41.209025018750054,
+      "difficulty": 1.5714285714285714,
+      "effort": 64.75703931517866,
+      "time": 3.597613295287703,
+      "bugsDelivered": 0.005375308590976979,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "10",
+          "digitMap",
+          "toString",
+          "formatter",
+          "format"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/utils/rangeContainsDayOfWeek.ts",
+    "{\"pos\":945,\"end\":1105}": {
+      "length": 17,
+      "vocabulary": 13,
+      "volume": 62.907475208398566,
+      "difficulty": 2.0999999999999996,
+      "effort": 132.10569793763696,
+      "time": 7.339205440979831,
+      "bugsDelivered": 0.008646223252660741,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "i",
+          "0",
+          "totalDaysLimit",
+          "dayOfWeekArr",
+          "includes",
+          "date",
+          "getDay",
+          "dateLib",
+          "addDays",
+          "1"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          30,
+          101,
+          58
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-day-picker/src/utils/rangeContainsModifiers.ts",
+    "{\"pos\":3024,\"end\":3205}": {
+      "length": 19,
+      "vocabulary": 14,
+      "volume": 72.33974351909448,
+      "difficulty": 3,
+      "effort": 217.01923055728344,
+      "time": 12.05662391984908,
+      "bugsDelivered": 0.012037719654319563,
+      "operands": {
+        "total": 15,
+        "_unique": [
+          "i",
+          "0",
+          "totalDays",
+          "functionMatchers",
+          "some",
+          "matcher",
+          "date",
+          "dateLib",
+          "addDays",
+          "1"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          30,
+          36,
+          101,
+          58
+        ],
+        "unique": 4
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-redux/src/utils/bindActionCreators.ts",
+    "{\"pos\":259,\"end\":480}": {
+      "length": 17,
+      "vocabulary": 11,
+      "volume": 58.81033751683405,
+      "difficulty": 3.7142857142857144,
+      "effort": 218.43839649109793,
+      "time": 12.135466471727662,
+      "bugsDelivered": 0.012090141909912151,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "key",
+          "actionCreators",
+          "actionCreator",
+          "function",
+          "boundActionCreators",
+          "args",
+          "dispatch"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          34,
+          58,
+          24,
+          36
+        ],
+        "unique": 4
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-redux/src/utils/hoistStatics.ts",
+    "{\"pos\":3084,\"end\":3662}": {
+      "length": 34,
+      "vocabulary": 16,
+      "volume": 136,
+      "difficulty": 2.0714285714285716,
+      "effort": 281.7142857142857,
+      "time": 15.650793650793652,
+      "bugsDelivered": 0.014324671094173165,
+      "operands": {
+        "total": 29,
+        "_unique": [
+          "i",
+          "0",
+          "keys",
+          "length",
+          "key",
+          "KNOWN_STATICS",
+          "sourceStatics",
+          "targetStatics",
+          "descriptor",
+          "getOwnPropertyDescriptor",
+          "sourceComponent",
+          "defineProperty",
+          "targetComponent",
+          "e"
+        ],
+        "unique": 14
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          27,
+          53
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/react-redux/src/utils/shallowEqual.ts",
+    "{\"pos\":527,\"end\":731}": {
+      "length": 23,
+      "vocabulary": 14,
+      "volume": 87.56916320732489,
+      "difficulty": 2.727272727272727,
+      "effort": 238.8249905654315,
+      "time": 13.268055031412862,
+      "bugsDelivered": 0.012831140429908667,
+      "operands": {
+        "total": 20,
+        "_unique": [
+          "i",
+          "0",
+          "keysA",
+          "length",
+          "Object",
+          "prototype",
+          "hasOwnProperty",
+          "call",
+          "objB",
+          "is",
+          "objA"
+        ],
+        "unique": 11
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          54,
+          86
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/reselect/src/autotrackMemoize/proxy.ts",
+    "{\"pos\":3935,\"end\":4004}": {
+      "length": 3,
+      "vocabulary": 3,
+      "volume": 4.754887502163468,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 3,
+        "_unique": [
+          "_key",
+          "value",
+          "oldKeysSize"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":4004,\"end\":4166}": {
+      "length": 9,
+      "vocabulary": 8,
+      "volume": 27,
+      "difficulty": 1.7999999999999998,
+      "effort": 48.599999999999994,
+      "time": 2.6999999999999997,
+      "bugsDelivered": 0.004439181733794846,
+      "operands": {
+        "total": 6,
+        "_unique": [
+          "key",
+          "newValue",
+          "newKeysSize",
+          "value",
+          "anyKeysAdded"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          92,
+          58,
+          101
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":4319,\"end\":4715}": {
+      "length": 32,
+      "vocabulary": 17,
+      "volume": 130.79881092001085,
+      "difficulty": 5.208333333333334,
+      "effort": 681.2438068750566,
+      "time": 37.84687815972537,
+      "bugsDelivered": 0.02580757055903936,
+      "operands": {
+        "total": 25,
+        "_unique": [
+          "key",
+          "tags",
+          "childValue",
+          "value",
+          "Record",
+          "unknown",
+          "newChildValue",
+          "newValue",
+          "dirtyCollection",
+          "node",
+          "dirtyTag",
+          "object"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          137,
+          35,
+          34,
+          53,
+          95
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":4715,\"end\":5191}": {
+      "length": 34,
+      "vocabulary": 17,
+      "volume": 138.97373660251154,
+      "difficulty": 5.625,
+      "effort": 781.7272683891274,
+      "time": 43.42929268828485,
+      "bugsDelivered": 0.028286697940456976,
+      "operands": {
+        "total": 27,
+        "_unique": [
+          "key",
+          "children",
+          "childNode",
+          "newChildValue",
+          "newValue",
+          "Record",
+          "unknown",
+          "childValue",
+          "value",
+          "object",
+          "updateNode",
+          "deleteNode"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          137,
+          34,
+          53,
+          35,
+          95
+        ],
+        "unique": 5
+      }
+    },
+    "{\"pos\":5316,\"end\":5391}": {
+      "length": 8,
+      "vocabulary": 5,
+      "volume": 18.575424759098897,
+      "difficulty": 0.875,
+      "effort": 16.253496664211536,
+      "time": 0.9029720369006409,
+      "bugsDelivered": 0.002138831719813076,
+      "operands": {
+        "total": 7,
+        "_unique": [
+          "key",
+          "node",
+          "tags",
+          "dirtyTag"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          95
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":5391,\"end\":5470}": {
+      "length": 7,
+      "vocabulary": 4,
+      "volume": 14,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 7,
+        "_unique": [
+          "key",
+          "node",
+          "children",
+          "deleteNode"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/tailwind-merge/src/lib/merge-classlist.ts",
+    "{\"pos\":671,\"end\":2583}": {
+      "length": 127,
+      "vocabulary": 42,
+      "volume": 684.8243126929026,
+      "difficulty": 14.84375,
+      "effort": 10165.360891535272,
+      "time": 564.7422717519596,
+      "bugsDelivered": 0.15642059961304045,
+      "operands": {
+        "total": 95,
+        "_unique": [
+          "index",
+          "classNames",
+          "length",
+          "1",
+          "0",
+          "originalClassName",
+          "modifiers",
+          "hasImportantModifier",
+          "baseClassName",
+          "maybePostfixModifierPosition",
+          "parseClassName",
+          "hasPostfixModifier",
+          "Boolean",
+          "classGroupId",
+          "getClassGroupId",
+          "substring",
+          "result",
+          " ",
+          "variantModifier",
+          "sortModifiers",
+          "join",
+          ":",
+          "modifierId",
+          "IMPORTANT_MODIFIER",
+          "classId",
+          "classGroupsInConflict",
+          "includes",
+          "push",
+          "conflictGroups",
+          "getConflictingClassGroupIds",
+          "i",
+          "group"
+        ],
+        "unique": 32
+      },
+      "operators": {
+        "total": 32,
+        "_unique": [
+          38,
+          31,
+          60,
+          55,
+          56,
+          58,
+          37,
+          29,
+          86,
+          27
+        ],
+        "unique": 10
+      }
+    },
+    "{\"pos\":2281,\"end\":2453}": {
+      "length": 15,
+      "vocabulary": 10,
+      "volume": 49.82892142331043,
+      "difficulty": 1.625,
+      "effort": 80.97199731287945,
+      "time": 4.4984442951599695,
+      "bugsDelivered": 0.006238813165620713,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "conflictGroups",
+          "length",
+          "group",
+          "classGroupsInConflict",
+          "push",
+          "modifierId"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          37
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/tailwind-merge/src/lib/merge-configs.ts",
+    "{\"pos\":813,\"end\":1022}": {
+      "length": 9,
+      "vocabulary": 4,
+      "volume": 18,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "configKey",
+          "override",
+          "overrideConfigProperties",
+          "baseConfig"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":1022,\"end\":1202}": {
+      "length": 9,
+      "vocabulary": 4,
+      "volume": 18,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "extend",
+          "mergeConfigProperties",
+          "baseConfig"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":1677,\"end\":1798}": {
+      "length": 7,
+      "vocabulary": 4,
+      "volume": 14,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 7,
+        "_unique": [
+          "key",
+          "overrideObject",
+          "overrideProperty",
+          "baseObject"
+        ],
+        "unique": 4
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":2004,\"end\":2239}": {
+      "length": 16,
+      "vocabulary": 9,
+      "volume": 50.718800023076994,
+      "difficulty": 3.25,
+      "effort": 164.83610007500022,
+      "time": 9.15756111527779,
+      "bugsDelivered": 0.010021059309285525,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "key",
+          "mergeObject",
+          "mergeValue",
+          "undefined",
+          "baseObject",
+          "concat"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          35,
+          58,
+          54
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/tailwind-merge/src/lib/parse-class-name.ts",
+    "{\"pos\":673,\"end\":1602}": {
+      "length": 52,
+      "vocabulary": 24,
+      "volume": 238.4180500375001,
+      "difficulty": 6.5,
+      "effort": 1549.7173252437508,
+      "time": 86.09540695798616,
+      "bugsDelivered": 0.044638926044737084,
+      "operands": {
+        "total": 39,
+        "_unique": [
+          "index",
+          "0",
+          "className",
+          "length",
+          "currentCharacter",
+          "bracketDepth",
+          "firstSeparatorCharacter",
+          "isSeparatorSingleCharacter",
+          "slice",
+          "separatorLength",
+          "separator",
+          "modifiers",
+          "push",
+          "modifierStart",
+          "/",
+          "postfixModifierPosition",
+          "[",
+          "]"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 13,
+        "_unique": [
+          27,
+          34,
+          53,
+          54,
+          37,
+          58
+        ],
+        "unique": 6
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/tailwind-merge/src/lib/tw-join.ts",
+    "{\"pos\":1178,\"end\":1436}": {
+      "length": 24,
+      "vocabulary": 14,
+      "volume": 91.3765181293825,
+      "difficulty": 5,
+      "effort": 456.8825906469125,
+      "time": 25.382366147050693,
+      "bugsDelivered": 0.01977342124229494,
+      "operands": {
+        "total": 18,
+        "_unique": [
+          "k",
+          "0",
+          "mix",
+          "length",
+          "resolvedValue",
+          "toValue",
+          "ClassNameArray",
+          "string",
+          " "
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 6,
+        "_unique": [
+          27,
+          58,
+          137,
+          53,
+          59
+        ],
+        "unique": 5
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v3/types.ts",
+    "{\"pos\":78364,\"end\":78525}": {
+      "length": 14,
+      "vocabulary": 9,
+      "volume": 44.37895002019237,
+      "difficulty": 0.8125,
+      "effort": 36.0578968914063,
+      "time": 2.0032164939670167,
+      "bugsDelivered": 0.003638136646935845,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "key",
+          "schema",
+          "shape",
+          "fieldSchema",
+          "newShape",
+          "ZodOptional",
+          "create",
+          "deepPartialify"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          58
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":80421,\"end\":80546}": {
+      "length": 9,
+      "vocabulary": 7,
+      "volume": 25.26619429851844,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "ctx",
+          "data",
+          "shapeKeys",
+          "includes",
+          "extraKeys",
+          "push"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":103233,\"end\":103519}": {
+      "length": 25,
+      "vocabulary": 15,
+      "volume": 97.67226489021297,
+      "difficulty": 1.7692307692307692,
+      "effort": 172.80477634422294,
+      "time": 9.60026535245683,
+      "bugsDelivered": 0.010341477072787863,
+      "operands": {
+        "total": 23,
+        "_unique": [
+          "index",
+          "0",
+          "a",
+          "length",
+          "itemA",
+          "itemB",
+          "b",
+          "sharedValue",
+          "mergeValues",
+          "valid",
+          "newArray",
+          "push",
+          "data"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          86
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":111435,\"end\":111711}": {
+      "length": 30,
+      "vocabulary": 13,
+      "volume": 111.01319154423277,
+      "difficulty": 1.2083333333333333,
+      "effort": 134.1409397826146,
+      "time": 7.452274432367478,
+      "bugsDelivered": 0.008734800193523462,
+      "operands": {
+        "total": 29,
+        "_unique": [
+          "key",
+          "ctx",
+          "data",
+          "pairs",
+          "push",
+          "keyType",
+          "_parse",
+          "ParseInputLazyPath",
+          "path",
+          "value",
+          "valueType",
+          "alwaysSet"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          92
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/app/api/quizzes/[id]/publish/route.ts",
+    "{\"pos\":1050,\"end\":1175}": {
+      "length": 17,
+      "vocabulary": 13,
+      "volume": 62.907475208398566,
+      "difficulty": 2.0999999999999996,
+      "effort": 132.10569793763696,
+      "time": 7.339205440979831,
+      "bugsDelivered": 0.008646223252660741,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "i",
+          "0",
+          "6",
+          "code",
+          "characters",
+          "charAt",
+          "Math",
+          "floor",
+          "random",
+          "length"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          39
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":1466,\"end\":1597}": {
+      "length": 17,
+      "vocabulary": 13,
+      "volume": 62.907475208398566,
+      "difficulty": 2.0999999999999996,
+      "effort": 132.10569793763696,
+      "time": 7.339205440979831,
+      "bugsDelivered": 0.008646223252660741,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "i",
+          "0",
+          "6",
+          "code",
+          "characters",
+          "charAt",
+          "Math",
+          "floor",
+          "random",
+          "length"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          39
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/fluentvalidation-ts/src/fluentvalidation-ts.ts",
+    "{\"pos\":379,\"end\":974}": {
+      "length": 46,
+      "vocabulary": 26,
+      "volume": 216.22022703449022,
+      "difficulty": 8.222222222222221,
+      "effort": 1777.8107556169193,
+      "time": 98.76726420093996,
+      "bugsDelivered": 0.04891804566930383,
+      "operands": {
+        "total": 37,
+        "_unique": [
+          "key",
+          "object",
+          "currentIndex",
+          "parentIndices",
+          "currentValue",
+          "Array",
+          "isArray",
+          "forEach",
+          "item",
+          "index",
+          "traverseObject",
+          "errors",
+          "string",
+          "join",
+          ".",
+          "type",
+          "validation",
+          "message"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 9,
+        "_unique": [
+          119,
+          134,
+          36,
+          34,
+          53,
+          35,
+          95,
+          58
+        ],
+        "unique": 8
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/typebox/src/typebox.ts",
+    "{\"pos\":457,\"end\":1122}": {
+      "length": 62,
+      "vocabulary": 28,
+      "volume": 298.0560051675714,
+      "difficulty": 7.090909090909092,
+      "effort": 2113.488036642779,
+      "time": 117.41600203570995,
+      "bugsDelivered": 0.05489657814452619,
+      "operands": {
+        "total": 52,
+        "_unique": [
+          "_errors",
+          "length",
+          "error",
+          "0",
+          "type",
+          "message",
+          "path",
+          "_path",
+          "substring",
+          "1",
+          "replace",
+          "/\\//g",
+          ".",
+          "errors",
+          null,
+          "validateAllFieldCriteria",
+          "types",
+          "messages",
+          "appendErrors",
+          "concat",
+          "FieldError",
+          "shift"
+        ],
+        "unique": 22
+      },
+      "operators": {
+        "total": 10,
+        "_unique": [
+          58,
+          37,
+          53,
+          55,
+          137,
+          56
+        ],
+        "unique": 6
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/typeschema/src/typeschema.ts",
+    "{\"pos\":464,\"end\":1137}": {
+      "length": 54,
+      "vocabulary": 24,
+      "volume": 247.58797503894243,
+      "difficulty": 6.184210526315789,
+      "effort": 1531.1361614250386,
+      "time": 85.06312007916881,
+      "bugsDelivered": 0.04428139434623666,
+      "operands": {
+        "total": 47,
+        "_unique": [
+          "typeschemaErrors",
+          "length",
+          "error",
+          "0",
+          "path",
+          "_path",
+          "join",
+          ".",
+          "errors",
+          "message",
+          "type",
+          null,
+          "validateAllFieldCriteria",
+          "types",
+          "messages",
+          "appendErrors",
+          "concat",
+          "FieldError",
+          "shift"
+        ],
+        "unique": 19
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          58,
+          53,
+          55,
+          137,
+          56
+        ],
+        "unique": 5
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/valibot/src/valibot.ts",
+    "{\"pos\":891,\"end\":1957}": {
+      "length": 58,
+      "vocabulary": 22,
+      "volume": 258.64703388096325,
+      "difficulty": 7.352941176470589,
+      "effort": 1901.8164255953182,
+      "time": 105.65646808862878,
+      "bugsDelivered": 0.05116713983755198,
+      "operands": {
+        "total": 50,
+        "_unique": [
+          "result",
+          "issues",
+          "length",
+          "issue",
+          "0",
+          "path",
+          "getDotPath",
+          "errors",
+          "message",
+          "type",
+          "validateAllFieldCriteria",
+          "types",
+          "messages",
+          "appendErrors",
+          "concat",
+          "FieldError",
+          "shift"
+        ],
+        "unique": 17
+      },
+      "operators": {
+        "total": 8,
+        "_unique": [
+          58,
+          53,
+          55,
+          137,
+          56
+        ],
+        "unique": 5
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/vest/src/vest.ts",
+    "{\"pos\":360,\"end\":696}": {
+      "length": 34,
+      "vocabulary": 18,
+      "volume": 141.7774500490386,
+      "difficulty": 5.1923076923076925,
+      "effort": 736.1521444853928,
+      "time": 40.8973413602996,
+      "bugsDelivered": 0.027176308650941772,
+      "operands": {
+        "total": 27,
+        "_unique": [
+          "path",
+          "vestError",
+          "errors",
+          "message",
+          "0",
+          "type",
+          null,
+          "validateAllFieldCriteria",
+          "types",
+          "reduce",
+          "Record",
+          "acc",
+          "index"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          58,
+          134,
+          137,
+          36,
+          53
+        ],
+        "unique": 5
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/vine/src/vine.ts",
+    "{\"pos\":421,\"end\":1033}": {
+      "length": 51,
+      "vocabulary": 22,
+      "volume": 227.43101255050217,
+      "difficulty": 8.25,
+      "effort": 1876.305853541643,
+      "time": 104.23921408564684,
+      "bugsDelivered": 0.05070854712866313,
+      "operands": {
+        "total": 44,
+        "_unique": [
+          "vineErrors",
+          "length",
+          "error",
+          "0",
+          "path",
+          "field",
+          "schemaErrors",
+          "message",
+          "type",
+          "rule",
+          "validateAllFieldCriteria",
+          "types",
+          "messages",
+          "appendErrors",
+          "FieldError",
+          "shift"
+        ],
+        "unique": 16
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          92,
+          58,
+          53,
+          55,
+          137,
+          56
+        ],
+        "unique": 6
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@hookform/resolvers/zod/src/zod.ts",
+    "{\"pos\":459,\"end\":1487}": {
+      "length": 88,
+      "vocabulary": 31,
+      "volume": 435.969275314045,
+      "difficulty": 11.083333333333332,
+      "effort": 4831.992801397331,
+      "time": 268.44404452207397,
+      "bugsDelivered": 0.09527148420741301,
+      "operands": {
+        "total": 76,
+        "_unique": [
+          "zodErrors",
+          "length",
+          "error",
+          "0",
+          "code",
+          "message",
+          "path",
+          "_path",
+          "join",
+          ".",
+          "errors",
+          "unionErrors",
+          "unionError",
+          "type",
+          "forEach",
+          "e",
+          "push",
+          "validateAllFieldCriteria",
+          "types",
+          "messages",
+          "appendErrors",
+          "concat",
+          "FieldError",
+          "shift"
+        ],
+        "unique": 24
+      },
+      "operators": {
+        "total": 12,
+        "_unique": [
+          92,
+          58,
+          36,
+          53,
+          55,
+          137,
+          56
+        ],
+        "unique": 7
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/entities/sorted_state_adapter.ts",
+    "{\"pos\":4878,\"end\":4997}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 3,
+      "effort": 117,
+      "time": 6.5,
+      "bugsDelivered": 0.007973873099354774,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "a",
+          "length",
+          "b"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          34,
+          86
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/auth-js/src/lib/base64url.ts",
+    "{\"pos\":755,\"end\":828}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 3,
+      "effort": 117,
+      "time": 6.5,
+      "bugsDelivered": 0.007973873099354774,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "charMap",
+          "length",
+          "1"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":828,\"end\":942}": {
+      "length": 16,
+      "vocabulary": 11,
+      "volume": 55.35090589819676,
+      "difficulty": 2.4375,
+      "effort": 134.9178331268546,
+      "time": 7.495435173714144,
+      "bugsDelivered": 0.008768493484667985,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "IGNORE_BASE64URL",
+          "length",
+          "1",
+          "charMap",
+          "charCodeAt",
+          "2"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":942,\"end\":1047}": {
+      "length": 16,
+      "vocabulary": 10,
+      "volume": 53.150849518197795,
+      "difficulty": 2.7857142857142856,
+      "effort": 148.06308080069385,
+      "time": 8.225726711149658,
+      "bugsDelivered": 0.009329175571027628,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "TO_BASE64URL",
+          "length",
+          "1",
+          "charMap",
+          "charCodeAt"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":4169,\"end\":4279}": {
+      "length": 15,
+      "vocabulary": 11,
+      "volume": 51.89147427955946,
+      "difficulty": 1.4444444444444444,
+      "effort": 74.95435173714144,
+      "time": 4.164130652063413,
+      "bugsDelivered": 0.005925749841179997,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "str",
+          "length",
+          "1",
+          "byteFromBase64URL",
+          "charCodeAt",
+          "b64State",
+          "byteEmit"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          59
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":5511,\"end\":6109}": {
+      "length": 51,
+      "vocabulary": 29,
+      "volume": 247.75703075150616,
+      "difficulty": 11,
+      "effort": 2725.327338266568,
+      "time": 151.40707434814266,
+      "bugsDelivered": 0.06503660470387168,
+      "operands": {
+        "total": 36,
+        "_unique": [
+          "i",
+          "0",
+          "str",
+          "length",
+          "1",
+          "codepoint",
+          "charCodeAt",
+          "55295",
+          "56319",
+          "highSurrogate",
+          "55296",
+          "1024",
+          "65535",
+          "lowSurrogate",
+          "56320",
+          "65536",
+          "codepointToUTF8",
+          "emit"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 15,
+        "_unique": [
+          27,
+          59,
+          29,
+          53,
+          30,
+          38,
+          39,
+          48,
+          37,
+          58,
+          49
+        ],
+        "unique": 11
+      }
+    },
+    "{\"pos\":6672,\"end\":6912}": {
+      "length": 21,
+      "vocabulary": 15,
+      "volume": 82.0447025077789,
+      "difficulty": 6.125,
+      "effort": 502.52380286014574,
+      "time": 27.917989047785873,
+      "bugsDelivered": 0.021069286904392293,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "leadingBit",
+          "1",
+          "6",
+          "byte",
+          "7",
+          "0",
+          "state",
+          "utf8seq"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          27,
+          59,
+          46,
+          38,
+          48,
+          34,
+          58
+        ],
+        "unique": 7
+      }
+    },
+    "{\"pos\":7765,\"end\":7870}": {
+      "length": 15,
+      "vocabulary": 11,
+      "volume": 51.89147427955946,
+      "difficulty": 1.4444444444444444,
+      "effort": 74.95435173714144,
+      "time": 4.164130652063413,
+      "bugsDelivered": 0.005925749841179997,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "str",
+          "length",
+          "1",
+          "byteFromBase64URL",
+          "charCodeAt",
+          "state",
+          "onByte"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          59
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/auth-js/src/lib/helpers.ts",
+    "{\"pos\":4965,\"end\":5178}": {
+      "length": 14,
+      "vocabulary": 10,
+      "volume": 46.50699332842307,
+      "difficulty": 1.5,
+      "effort": 69.7604899926346,
+      "time": 3.875582777368589,
+      "bugsDelivered": 0.005648742272273707,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "i",
+          "0",
+          "parts",
+          "length",
+          "BASE64URL_REGEX",
+          "test",
+          "AuthInvalidJwtError",
+          "JWT not in base64url format"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          137
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":6190,\"end\":6560}": {
+      "length": 22,
+      "vocabulary": 12,
+      "volume": 78.86917501586544,
+      "difficulty": 3.166666666666667,
+      "effort": 249.75238755024057,
+      "time": 13.875132641680032,
+      "bugsDelivered": 0.01321960598470795,
+      "operands": {
+        "total": 19,
+        "_unique": [
+          "attempt",
+          "0",
+          "Infinity",
+          "result",
+          "fn",
+          "isRetryable",
+          "accept",
+          "e",
+          "reject"
+        ],
+        "unique": 9
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          95,
+          119
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":7135,\"end\":7261}": {
+      "length": 16,
+      "vocabulary": 13,
+      "volume": 59.207035490257475,
+      "difficulty": 1.9500000000000002,
+      "effort": 115.45371920600209,
+      "time": 6.414095511444561,
+      "bugsDelivered": 0.007903461895421925,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "verifierLength",
+          "verifier",
+          "charSet",
+          "charAt",
+          "Math",
+          "floor",
+          "random",
+          "charSetLen"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          39
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/auth-js/src/lib/webauthn.ts",
+    "{\"pos\":6122,\"end\":6494}": {
+      "length": 28,
+      "vocabulary": 15,
+      "volume": 109.39293667703852,
+      "difficulty": 3.125,
+      "effort": 341.8529271157454,
+      "time": 18.991829284208077,
+      "bugsDelivered": 0.01629689799417688,
+      "operands": {
+        "total": 25,
+        "_unique": [
+          "i",
+          "0",
+          "excludeCredentials",
+          "length",
+          "cred",
+          "result",
+          "id",
+          "base64UrlToUint8Array",
+          "buffer",
+          "type",
+          "public-key",
+          "transports"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          58,
+          54
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":8504,\"end\":8870}": {
+      "length": 28,
+      "vocabulary": 15,
+      "volume": 109.39293667703852,
+      "difficulty": 3.125,
+      "effort": 341.8529271157454,
+      "time": 18.991829284208077,
+      "bugsDelivered": 0.01629689799417688,
+      "operands": {
+        "total": 25,
+        "_unique": [
+          "i",
+          "0",
+          "allowCredentials",
+          "length",
+          "cred",
+          "result",
+          "id",
+          "base64UrlToUint8Array",
+          "buffer",
+          "type",
+          "public-key",
+          "transports"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          58,
+          54
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":18656,\"end\":19371}": {
+      "length": 55,
+      "vocabulary": 15,
+      "volume": 214.87898275846854,
+      "difficulty": 3.769230769230769,
+      "effort": 809.9284734742275,
+      "time": 44.99602630412375,
+      "bugsDelivered": 0.02896297637476775,
+      "operands": {
+        "total": 49,
+        "_unique": [
+          "key",
+          "source",
+          "value",
+          "undefined",
+          "Array",
+          "isArray",
+          "result",
+          "T",
+          "isArrayBufferLike",
+          "isObject",
+          "existing",
+          "deepMerge",
+          "unknown"
+        ],
+        "unique": 13
+      },
+      "operators": {
+        "total": 6,
+        "_unique": [
+          34,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/ssr/src/utils/base64url.ts",
+    "{\"pos\":714,\"end\":788}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 3,
+      "effort": 117,
+      "time": 6.5,
+      "bugsDelivered": 0.007973873099354774,
+      "operands": {
+        "total": 10,
+        "_unique": [
+          "i",
+          "0",
+          "charMap",
+          "length",
+          "1"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":788,\"end\":903}": {
+      "length": 16,
+      "vocabulary": 11,
+      "volume": 55.35090589819676,
+      "difficulty": 2.4375,
+      "effort": 134.9178331268546,
+      "time": 7.495435173714144,
+      "bugsDelivered": 0.008768493484667985,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "IGNORE_BASE64URL",
+          "length",
+          "1",
+          "charMap",
+          "charCodeAt",
+          "2"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":903,\"end\":1009}": {
+      "length": 16,
+      "vocabulary": 10,
+      "volume": 53.150849518197795,
+      "difficulty": 2.7857142857142856,
+      "effort": 148.06308080069385,
+      "time": 8.225726711149658,
+      "bugsDelivered": 0.009329175571027628,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "TO_BASE64URL",
+          "length",
+          "1",
+          "charMap",
+          "charCodeAt"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          58
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":2401,\"end\":3001}": {
+      "length": 53,
+      "vocabulary": 32,
+      "volume": 265,
+      "difficulty": 12,
+      "effort": 3180,
+      "time": 176.66666666666666,
+      "bugsDelivered": 0.07208255277387324,
+      "operands": {
+        "total": 40,
+        "_unique": [
+          "i",
+          "0",
+          "str",
+          "length",
+          "1",
+          "codepoint",
+          "charCodeAt",
+          "bits",
+          "FROM_BASE64URL",
+          "queue",
+          "6",
+          "queuedBits",
+          "8",
+          "stringFromUTF8",
+          "255",
+          "state",
+          "emit",
+          "2",
+          "Error",
+          "at"
+        ],
+        "unique": 20
+      },
+      "operators": {
+        "total": 13,
+        "_unique": [
+          27,
+          59,
+          29,
+          58,
+          45,
+          49,
+          31,
+          46,
+          38,
+          48,
+          60,
+          34
+        ],
+        "unique": 12
+      }
+    },
+    "{\"pos\":4256,\"end\":4860}": {
+      "length": 51,
+      "vocabulary": 29,
+      "volume": 247.75703075150616,
+      "difficulty": 11,
+      "effort": 2725.327338266568,
+      "time": 151.40707434814266,
+      "bugsDelivered": 0.06503660470387168,
+      "operands": {
+        "total": 36,
+        "_unique": [
+          "i",
+          "0",
+          "str",
+          "length",
+          "1",
+          "codepoint",
+          "charCodeAt",
+          "55295",
+          "56319",
+          "highSurrogate",
+          "55296",
+          "1024",
+          "65535",
+          "lowSurrogate",
+          "56320",
+          "65536",
+          "codepointToUTF8",
+          "emit"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 15,
+        "_unique": [
+          27,
+          59,
+          29,
+          53,
+          30,
+          38,
+          39,
+          48,
+          37,
+          58,
+          49
+        ],
+        "unique": 11
+      }
+    },
+    "{\"pos\":5426,\"end\":5668}": {
+      "length": 21,
+      "vocabulary": 15,
+      "volume": 82.0447025077789,
+      "difficulty": 6.125,
+      "effort": 502.52380286014574,
+      "time": 27.917989047785873,
+      "bugsDelivered": 0.021069286904392293,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "leadingBit",
+          "1",
+          "6",
+          "byte",
+          "7",
+          "0",
+          "state",
+          "utf8seq"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 7,
+        "_unique": [
+          27,
+          59,
+          46,
+          38,
+          48,
+          34,
+          58
+        ],
+        "unique": 7
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/ssr/src/utils/chunker.ts",
+    "{\"pos\":2484,\"end\":2666}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "chunkName",
+          "key",
+          "chunk",
+          "retrieveChunk",
+          "values",
+          "push"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":3053,\"end\":3245}": {
+      "length": 12,
+      "vocabulary": 7,
+      "volume": 33.68825906469125,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 12,
+        "_unique": [
+          "i",
+          "0",
+          "chunkName",
+          "key",
+          "chunk",
+          "retrieveChunk",
+          "removeChunk"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/postgrest-js/src/select-query-parser/parser.ts",
+    "{\"pos\":14219,\"end\":14223}": {}
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v3/helpers/util.ts",
+    "{\"pos\":1661,\"end\":1824}": {
+      "length": 11,
+      "vocabulary": 8,
+      "volume": 33,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "key",
+          "object",
+          "Object",
+          "prototype",
+          "hasOwnProperty",
+          "call",
+          "keys",
+          "push"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v4/core/core.ts",
+    "{\"pos\":993,\"end\":1167}": {
+      "length": 16,
+      "vocabulary": 9,
+      "volume": 50.718800023076994,
+      "difficulty": 0.9375,
+      "effort": 47.548875021634686,
+      "time": 2.6416041678685938,
+      "bugsDelivered": 0.004374941425395412,
+      "operands": {
+        "total": 15,
+        "_unique": [
+          "k",
+          "_",
+          "prototype",
+          "inst",
+          "Object",
+          "defineProperty",
+          "value",
+          "bind"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          92
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v4/core/schemas.ts",
+    "{\"pos\":44882,\"end\":45286}": {
+      "length": 36,
+      "vocabulary": 22,
+      "volume": 160.5395382709427,
+      "difficulty": 2.605263157894737,
+      "effort": 418.2477444427192,
+      "time": 23.23598580237329,
+      "bugsDelivered": 0.018642371160286376,
+      "operands": {
+        "total": 33,
+        "_unique": [
+          "i",
+          "0",
+          "input",
+          "length",
+          "item",
+          "result",
+          "def",
+          "element",
+          "_zod",
+          "run",
+          "value",
+          "issues",
+          "ctx",
+          "Promise",
+          "proms",
+          "push",
+          "then",
+          "handleArrayResult",
+          "payload"
+        ],
+        "unique": 19
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          93,
+          36
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":50286,\"end\":50496}": {
+      "length": 27,
+      "vocabulary": 13,
+      "volume": 99.91187238980949,
+      "difficulty": 3.3000000000000003,
+      "effort": 329.7091788863713,
+      "time": 18.317176604798405,
+      "bugsDelivered": 0.015908629606410273,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "key",
+          "shape",
+          "field",
+          "_zod",
+          "values",
+          "propValues",
+          "",
+          "Set",
+          "v",
+          "add"
+        ],
+        "unique": 10
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          55,
+          58,
+          56
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":65285,\"end\":65656}": {
+      "length": 29,
+      "vocabulary": 16,
+      "volume": 116,
+      "difficulty": 1.9285714285714286,
+      "effort": 223.71428571428572,
+      "time": 12.428571428571429,
+      "bugsDelivered": 0.012284040051026953,
+      "operands": {
+        "total": 27,
+        "_unique": [
+          "index",
+          "0",
+          "a",
+          "length",
+          "itemA",
+          "itemB",
+          "b",
+          "sharedValue",
+          "mergeValues",
+          "valid",
+          "mergeErrorPath",
+          "newArray",
+          "push",
+          "data"
+        ],
+        "unique": 14
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          86
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":75095,\"end\":75257}": {
+      "length": 18,
+      "vocabulary": 10,
+      "volume": 59.79470570797252,
+      "difficulty": 2.7857142857142856,
+      "effort": 166.57096590078058,
+      "time": 9.253942550043366,
+      "bugsDelivered": 0.010091249593977726,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "key",
+          "input",
+          "values",
+          "has",
+          "unrecognized",
+          "",
+          "push"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 5,
+        "_unique": [
+          58,
+          55,
+          56
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v4/core/to-json-schema.ts",
+    "{\"pos\":9524,\"end\":9782}": {
+      "length": 16,
+      "vocabulary": 9,
+      "volume": 50.718800023076994,
+      "difficulty": 2,
+      "effort": 101.43760004615399,
+      "time": 5.635422224786333,
+      "bugsDelivered": 0.007250112111270792,
+      "operands": {
+        "total": 14,
+        "_unique": [
+          "key",
+          "shape",
+          "json",
+          "properties",
+          "process",
+          "params",
+          "path"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          58,
+          99
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":24060,\"end\":24130}": {
+      "length": 4,
+      "vocabulary": 2,
+      "volume": 4,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 4,
+        "_unique": [
+          "key",
+          "schema"
+        ],
+        "unique": 2
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    },
+    "{\"pos\":30707,\"end\":30815}": {
+      "length": 9,
+      "vocabulary": 6,
+      "volume": 23.264662506490403,
+      "difficulty": 0.8,
+      "effort": 18.611730005192324,
+      "time": 1.0339850002884625,
+      "bugsDelivered": 0.002341009850357244,
+      "operands": {
+        "total": 8,
+        "_unique": [
+          "key",
+          "def",
+          "shape",
+          "isTransforming",
+          "ctx"
+        ],
+        "unique": 5
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          101
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/zod/src/v4/core/util.ts",
+    "{\"pos\":9370,\"end\":9462}": {
+      "length": 13,
+      "vocabulary": 8,
+      "volume": 39,
+      "difficulty": 1.8333333333333333,
+      "effort": 71.5,
+      "time": 3.9722222222222223,
+      "bugsDelivered": 0.005742258947642964,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "keys",
+          "length",
+          "resolvedObj",
+          "results"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":9609,\"end\":9710}": {
+      "length": 16,
+      "vocabulary": 11,
+      "volume": 55.35090589819676,
+      "difficulty": 2.4375,
+      "effort": 134.9178331268546,
+      "time": 7.495435173714144,
+      "bugsDelivered": 0.008768493484667985,
+      "operands": {
+        "total": 13,
+        "_unique": [
+          "i",
+          "0",
+          "length",
+          "str",
+          "chars",
+          "Math",
+          "floor",
+          "random"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 3,
+        "_unique": [
+          27,
+          59,
+          39
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":10954,\"end\":11069}": {
+      "length": 9,
+      "vocabulary": 7,
+      "volume": 25.26619429851844,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "data",
+          "Object",
+          "prototype",
+          "hasOwnProperty",
+          "call",
+          "keyCount"
+        ],
+        "unique": 7
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/core/buildThunks.ts",
+    "{\"pos\":23332,\"end\":23774}": {
+      "length": 26,
+      "vocabulary": 16,
+      "volume": 104,
+      "difficulty": 1.7142857142857142,
+      "effort": 178.28571428571428,
+      "time": 9.904761904761905,
+      "bugsDelivered": 0.010559007754781139,
+      "operands": {
+        "total": 24,
+        "_unique": [
+          "i",
+          "1",
+          "totalPages",
+          "param",
+          "getNextPageParam",
+          "infiniteQueryOptions",
+          "result",
+          "data",
+          "InfiniteData",
+          "unknown",
+          "arg",
+          "originalArgs",
+          "fetchPage",
+          "maxPages"
+        ],
+        "unique": 14
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          58
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/utils/countObjectKeys.ts",
+    "{\"pos\":262,\"end\":307}": {
+      "length": 3,
+      "vocabulary": 3,
+      "volume": 4.754887502163468,
+      "difficulty": 0,
+      "effort": 0,
+      "time": 0,
+      "bugsDelivered": 0,
+      "operands": {
+        "total": 3,
+        "_unique": [
+          "_key",
+          "obj",
+          "count"
+        ],
+        "unique": 3
+      },
+      "operators": {
+        "total": 0,
+        "_unique": [],
+        "unique": 0
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/tests/buildHooks.test-d.tsx",
+    "{\"pos\":862,\"end\":973}": {
+      "length": 12,
+      "vocabulary": 9,
+      "volume": 38.039100017307746,
+      "difficulty": 0.6875,
+      "effort": 26.151881261899074,
+      "time": 1.4528822923277263,
+      "bugsDelivered": 0.0029368428116158564,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "3",
+          "item",
+          "id",
+          "nextItemId",
+          "items",
+          "push"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/tests/buildHooks.test.tsx",
+    "{\"pos\":1934,\"end\":2045}": {
+      "length": 12,
+      "vocabulary": 9,
+      "volume": 38.039100017307746,
+      "difficulty": 0.6875,
+      "effort": 26.151881261899074,
+      "time": 1.4528822923277263,
+      "bugsDelivered": 0.0029368428116158564,
+      "operands": {
+        "total": 11,
+        "_unique": [
+          "i",
+          "0",
+          "3",
+          "item",
+          "id",
+          "nextItemId",
+          "items",
+          "push"
+        ],
+        "unique": 8
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          27
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/tests/buildThunks.test.tsx",
+    "{\"pos\":4351,\"end\":4548}": {
+      "length": 21,
+      "vocabulary": 18,
+      "volume": 87.56842503028855,
+      "difficulty": 1.1875,
+      "effort": 103.98750472346765,
+      "time": 5.777083595748203,
+      "bugsDelivered": 0.007371109281882781,
+      "operands": {
+        "total": 19,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "6",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledTimes",
+          "2"
+        ],
+        "unique": 16
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          36
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":4548,\"end\":4745}": {
+      "length": 21,
+      "vocabulary": 17,
+      "volume": 85.83671966625712,
+      "difficulty": 1.2666666666666666,
+      "effort": 108.72651157725902,
+      "time": 6.040361754292167,
+      "bugsDelivered": 0.007593390152513045,
+      "operands": {
+        "total": 19,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "7",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledTimes"
+        ],
+        "unique": 15
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          36
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":5154,\"end\":5383}": {
+      "length": 24,
+      "vocabulary": 21,
+      "volume": 105.41561814669026,
+      "difficulty": 1.1578947368421053,
+      "effort": 122.06018943300978,
+      "time": 6.78112163516721,
+      "bugsDelivered": 0.008202157510667185,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "name",
+          "Bob",
+          "likes",
+          "waffles",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledTimes",
+          "2"
+        ],
+        "unique": 19
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          36
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":5383,\"end\":5614}": {
+      "length": 24,
+      "vocabulary": 20,
+      "volume": 103.72627427729671,
+      "difficulty": 1.2222222222222223,
+      "effort": 126.77655745002932,
+      "time": 7.0431420805571845,
+      "bugsDelivered": 0.008412105582444195,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "name",
+          "Alice",
+          "likes",
+          "waffles",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledTimes"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          36
+        ],
+        "unique": 2
+      }
+    },
+    "{\"pos\":6036,\"end\":6266}": {
+      "length": 27,
+      "vocabulary": 19,
+      "volume": 114.6940428629768,
+      "difficulty": 2.15625,
+      "effort": 247.30902992329374,
+      "time": 13.739390551294097,
+      "bugsDelivered": 0.013133245458054247,
+      "operands": {
+        "total": 23,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "person",
+          "name",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledTimes"
+        ],
+        "unique": 16
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          37,
+          36
+        ],
+        "unique": 3
+      }
+    },
+    "{\"pos\":6710,\"end\":6937}": {
+      "length": 23,
+      "vocabulary": 20,
+      "volume": 99.40434618240934,
+      "difficulty": 1.1666666666666667,
+      "effort": 115.97173721281091,
+      "time": 6.442874289600606,
+      "bugsDelivered": 0.007927085099012505,
+      "operands": {
+        "total": 21,
+        "_unique": [
+          "x",
+          "1",
+          "3",
+          "rerender",
+          "likes",
+          "Bananas",
+          "name",
+          "Tim",
+          "waitFor",
+          "expect",
+          "result",
+          "current",
+          "status",
+          "not",
+          "toBe",
+          "pending",
+          "spy",
+          "toHaveBeenCalledOnce"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          36
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/tests/infiniteQueries.test.ts",
+    "{\"pos\":8754,\"end\":8997}": {
+      "length": 20,
+      "vocabulary": 16,
+      "volume": 80,
+      "difficulty": 0.6333333333333333,
+      "effort": 50.666666666666664,
+      "time": 2.814814814814815,
+      "bugsDelivered": 0.004564154117247687,
+      "operands": {
+        "total": 19,
+        "_unique": [
+          "i",
+          "1",
+          "10",
+          "res",
+          "storeRef",
+          "store",
+          "dispatch",
+          "pokemonApi",
+          "endpoints",
+          "getInfinitePokemon",
+          "initiate",
+          "fire",
+          "direction",
+          "forward",
+          "checkResultLength"
+        ],
+        "unique": 15
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          30
+        ],
+        "unique": 1
+      }
+    },
+    "{\"pos\":9062,\"end\":9325}": {
+      "length": 23,
+      "vocabulary": 19,
+      "volume": 97.70233280920246,
+      "difficulty": 0.6111111111111112,
+      "effort": 59.706981161179286,
+      "time": 3.3170545089544046,
+      "bugsDelivered": 0.005092083159455637,
+      "operands": {
+        "total": 22,
+        "_unique": [
+          "i",
+          "1",
+          "10",
+          "res",
+          "storeRef",
+          "store",
+          "dispatch",
+          "pokemonApi",
+          "endpoints",
+          "getInfinitePokemonWithMax",
+          "initiate",
+          "fire",
+          "direction",
+          "forward",
+          "checkResultLength",
+          "Math",
+          "min",
+          "3"
+        ],
+        "unique": 18
+      },
+      "operators": {
+        "total": 1,
+        "_unique": [
+          30
+        ],
+        "unique": 1
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/tests/polling.test.tsx",
+    "{\"pos\":6795,\"end\":7146}": {
+      "length": 21,
+      "vocabulary": 18,
+      "volume": 87.56842503028855,
+      "difficulty": 1.1875,
+      "effort": 103.98750472346765,
+      "time": 5.777083595748203,
+      "bugsDelivered": 0.007371109281882781,
+      "operands": {
+        "total": 19,
+        "_unique": [
+          "i",
+          "0",
+          "SUBSCRIBER_COUNT",
+          "subscription",
+          "storeRef",
+          "store",
+          "dispatch",
+          "getPosts",
+          "initiate",
+          "1",
+          "subscriptionOptions",
+          "pollingInterval",
+          "1000",
+          "subscribe",
+          "subscriptions",
+          "push"
+        ],
+        "unique": 16
+      },
+      "operators": {
+        "total": 2,
+        "_unique": [
+          27,
+          101
+        ],
+        "unique": 2
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/tests/utils/helpers.tsx",
+    "{\"pos\":2184,\"end\":2512}": {
+      "length": 27,
+      "vocabulary": 15,
+      "volume": 105.48604608143,
+      "difficulty": 2.875,
+      "effort": 303.2723824841113,
+      "time": 16.84846569356174,
+      "bugsDelivered": 0.01504644795695757,
+      "operands": {
+        "total": 23,
+        "_unique": [
+          "i",
+          "0",
+          "matchers",
+          "length",
+          "actions",
+          "message",
+          "type",
+          "map",
+          "a",
+          "join",
+          "\n",
+          "pass"
+        ],
+        "unique": 12
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          27,
+          36,
+          86
+        ],
+        "unique": 3
+      }
+    }
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@supabase/postgrest-js/dist/cjs/select-query-parser/parser.d.ts",
+    "{\"pos\":11084,\"end\":11088}": {}
+  },
+  {
+    "file": "/home/g_way_shh/QuizMaster/node_modules/@reduxjs/toolkit/src/query/core/buildMiddleware/invalidationByTags.ts",
+    "{\"pos\":2046,\"end\":2167}": {
+      "length": 13,
+      "vocabulary": 10,
+      "volume": 43.18506523353571,
+      "difficulty": 3,
+      "effort": 129.55519570060713,
+      "time": 7.197510872255951,
+      "bugsDelivered": 0.008534576359217054,
+      "operands": {
+        "total": 9,
+        "_unique": [
+          "key",
+          "cacheRecord",
+          "",
+          "status",
+          "QueryStatus",
+          "pending"
+        ],
+        "unique": 6
+      },
+      "operators": {
+        "total": 4,
+        "_unique": [
+          55,
+          34,
+          56,
+          101
+        ],
+        "unique": 4
+      }
+    }
+  }
+]

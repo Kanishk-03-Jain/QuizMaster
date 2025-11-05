@@ -1,0 +1,4330 @@
+[
+  {
+    "id": "lib/supabase/server.ts#createClient:89-716",
+    "file": "lib/supabase/server.ts",
+    "name": "createClient",
+    "fanIn": 10,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/server.ts#getAll:296-357",
+    "file": "lib/supabase/server.ts",
+    "name": "getAll",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/server.ts#setAll:358-701",
+    "file": "lib/supabase/server.ts",
+    "name": "setAll",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/server.ts#anonymous:433-500",
+    "file": "lib/supabase/server.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/api/quizzes/[id]/publish/route.ts#POST:113-2148",
+    "file": "app/api/quizzes/[id]/publish/route.ts",
+    "name": "POST",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/api/quizzes/[id]/route.ts#GET:113-1448",
+    "file": "app/api/quizzes/[id]/route.ts",
+    "name": "GET",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/callback/route.ts#GET:95-551",
+    "file": "app/auth/callback/route.ts",
+    "name": "GET",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/client.ts#createClient:51-199",
+    "file": "lib/supabase/client.ts",
+    "name": "createClient",
+    "fanIn": 8,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/utils.ts#cn:85-165",
+    "file": "lib/utils.ts",
+    "name": "cn",
+    "fanIn": 229,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/button.tsx#Button:1734-2107",
+    "file": "components/ui/button.tsx",
+    "name": "Button",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#Card:64-350",
+    "file": "components/ui/card.tsx",
+    "name": "Card",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardHeader:350-720",
+    "file": "components/ui/card.tsx",
+    "name": "CardHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardTitle:720-937",
+    "file": "components/ui/card.tsx",
+    "name": "CardTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardDescription:937-1169",
+    "file": "components/ui/card.tsx",
+    "name": "CardDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardAction:1169-1449",
+    "file": "components/ui/card.tsx",
+    "name": "CardAction",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardContent:1449-1648",
+    "file": "components/ui/card.tsx",
+    "name": "CardContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/card.tsx#CardFooter:1648-1880",
+    "file": "components/ui/card.tsx",
+    "name": "CardFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input.tsx#Input:64-944",
+    "file": "components/ui/input.tsx",
+    "name": "Input",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/label.tsx#Label:134-593",
+    "file": "components/ui/label.tsx",
+    "name": "Label",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/login/page.tsx#LoginPage:440-3416",
+    "file": "app/auth/login/page.tsx",
+    "name": "LoginPage",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/login/page.tsx#handleLogin:729-1192",
+    "file": "app/auth/login/page.tsx",
+    "name": "handleLogin",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/login/page.tsx#anonymous:2255-2286",
+    "file": "app/auth/login/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/login/page.tsx#anonymous:2629-2663",
+    "file": "app/auth/login/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#SignUpPage:441-5432",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "SignUpPage",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#handleSignUp:907-1692",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "handleSignUp",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#anonymous:2741-2775",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#anonymous:3154-3185",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#anonymous:3769-3824",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#anonymous:4316-4350",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up/page.tsx#anonymous:4718-4758",
+    "file": "app/auth/sign-up/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/auth/sign-up-success/page.tsx#SignUpSuccessPage:187-1053",
+    "file": "app/auth/sign-up-success/page.tsx",
+    "name": "SignUpSuccessPage",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/layout.tsx#RootLayout:380-632",
+    "file": "app/layout.tsx",
+    "name": "RootLayout",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/page.tsx#Home:95-526",
+    "file": "app/page.tsx",
+    "name": "Home",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tabs.tsx#Tabs:132-370",
+    "file": "components/ui/tabs.tsx",
+    "name": "Tabs",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tabs.tsx#TabsList:370-722",
+    "file": "components/ui/tabs.tsx",
+    "name": "TabsList",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tabs.tsx#TabsTrigger:722-1658",
+    "file": "components/ui/tabs.tsx",
+    "name": "TabsTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tabs.tsx#TabsContent:1658-1917",
+    "file": "components/ui/tabs.tsx",
+    "name": "TabsContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/available-quizzes.tsx#AvailableQuizzes:367-2255",
+    "file": "components/student/available-quizzes.tsx",
+    "name": "AvailableQuizzes",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/available-quizzes.tsx#anonymous:1133-2236",
+    "file": "components/student/available-quizzes.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/badge.tsx#Badge:1253-1598",
+    "file": "components/ui/badge.tsx",
+    "name": "Badge",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/previous-attempts.tsx#PreviousAttempts:303-2723",
+    "file": "components/student/previous-attempts.tsx",
+    "name": "PreviousAttempts",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/previous-attempts.tsx#anonymous:993-2704",
+    "file": "components/student/previous-attempts.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#StudentDashboardContent:854-7147",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "StudentDashboardContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:1242-1290",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#loadQuizzes:1318-2210",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "loadQuizzes",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:1756-2086",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#loadAttempts:2234-3490",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "loadAttempts",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:2675-2942",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:3085-3135",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:3271-3294",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#handleLogout:3514-3597",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "handleLogout",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/dashboard-content.tsx#anonymous:6633-6672",
+    "file": "components/student/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/dashboard/page.tsx#StudentDashboard:176-698",
+    "file": "app/student/dashboard/page.tsx",
+    "name": "StudentDashboard",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/join-quiz/page.tsx#JoinQuizPage:455-3301",
+    "file": "app/student/join-quiz/page.tsx",
+    "name": "JoinQuizPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/join-quiz/page.tsx#handleJoin:739-1421",
+    "file": "app/student/join-quiz/page.tsx",
+    "name": "handleJoin",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/join-quiz/page.tsx#anonymous:1682-1701",
+    "file": "app/student/join-quiz/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/join-quiz/page.tsx#anonymous:2726-2774",
+    "file": "app/student/join-quiz/page.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/radio-group.tsx#RadioGroup:187-441",
+    "file": "components/ui/radio-group.tsx",
+    "name": "RadioGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/radio-group.tsx#RadioGroupItem:441-1427",
+    "file": "components/ui/radio-group.tsx",
+    "name": "RadioGroupItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/textarea.tsx#Textarea:64-738",
+    "file": "components/ui/textarea.tsx",
+    "name": "Textarea",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialog:203-376",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialog",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogTrigger:376-580",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogPortal:580-780",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogOverlay:780-1224",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogOverlay",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogContent:1224-1975",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogHeader:1975-2231",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogFooter:2231-2522",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogTitle:2522-2804",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogDescription:2804-3118",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogAction:3118-3359",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogAction",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert-dialog.tsx#AlertDialogCancel:3359-3622",
+    "file": "components/ui/alert-dialog.tsx",
+    "name": "AlertDialogCancel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#QuizInterface:1183-13143",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "QuizInterface",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:1686-1895",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:1794-1845",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:1820-1838",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:1864-1891",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:1955-1994",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#formatTime:2063-2338",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "formatTime",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:2381-2598",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:2435-2503",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:2524-2591",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#handleSubmitQuiz:2651-4661",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "handleSubmitQuiz",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:3238-3271",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#gradeAnswer:4684-6219",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "gradeAnswer",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:4982-5008",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:5299-5335",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:8506-8545",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:8578-9003",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:10253-10294",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:10738-11325",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:10826-10855",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:11455-11513",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-interface.tsx#anonymous:11729-11806",
+    "file": "components/student/quiz-interface.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/quiz/[id]/page.tsx#QuizPage:163-1288",
+    "file": "app/student/quiz/[id]/page.tsx",
+    "name": "QuizPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#QuizResults:818-6803",
+    "file": "components/student/quiz-results.tsx",
+    "name": "QuizResults",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#getAnswerDisplayText:1292-1868",
+    "file": "components/student/quiz-results.tsx",
+    "name": "getAnswerDisplayText",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:1530-1563",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#getCorrectAnswerDisplayText:1907-2832",
+    "file": "components/student/quiz-results.tsx",
+    "name": "getCorrectAnswerDisplayText",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:2139-2182",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:2358-2469",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:4092-4111",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:4273-4292",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/student/quiz-results.tsx#anonymous:5012-6349",
+    "file": "components/student/quiz-results.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/student/quiz/[id]/results/page.tsx#ResultsPage:159-1444",
+    "file": "app/student/quiz/[id]/results/page.tsx",
+    "name": "ResultsPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-list.tsx#QuizList:466-3208",
+    "file": "components/teacher/quiz-list.tsx",
+    "name": "QuizList",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-list.tsx#anonymous:1220-3189",
+    "file": "components/teacher/quiz-list.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#Select:209-361",
+    "file": "components/ui/select.tsx",
+    "name": "Select",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectGroup:361-526",
+    "file": "components/ui/select.tsx",
+    "name": "SelectGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectValue:526-691",
+    "file": "components/ui/select.tsx",
+    "name": "SelectValue",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectTrigger:691-2035",
+    "file": "components/ui/select.tsx",
+    "name": "SelectTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectContent:2035-3593",
+    "file": "components/ui/select.tsx",
+    "name": "SelectContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectLabel:3593-3874",
+    "file": "components/ui/select.tsx",
+    "name": "SelectLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectItem:3874-4891",
+    "file": "components/ui/select.tsx",
+    "name": "SelectItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectSeparator:4891-5192",
+    "file": "components/ui/select.tsx",
+    "name": "SelectSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectScrollUpButton:5192-5627",
+    "file": "components/ui/select.tsx",
+    "name": "SelectScrollUpButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/select.tsx#SelectScrollDownButton:5627-6074",
+    "file": "components/ui/select.tsx",
+    "name": "SelectScrollDownButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#QuestionEditor:1002-9472",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "QuestionEditor",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#handleSave:1576-2310",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "handleSave",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#handleAddOption:2337-2524",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "handleAddOption",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#handleUpdateOption:2554-2757",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "handleUpdateOption",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#handleRemoveOption:2787-2866",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "handleRemoveOption",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:2839-2860",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:2968-2993",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:3769-3867",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:4555-4582",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:5093-5131",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:6246-6278",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:6620-7732",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:6812-6860",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:7127-7160",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:7467-7498",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:8250-8280",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:8501-8532",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:8961-9000",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/question-editor.tsx#anonymous:9299-9325",
+    "file": "components/teacher/question-editor.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#CreateQuizModal:879-9409",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "CreateQuizModal",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#handleAddQuestion:1450-1906",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "handleAddQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#handleUpdateQuestion:1938-2067",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "handleUpdateQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:2003-2061",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#handleDeleteQuestion:2099-2192",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "handleDeleteQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:2160-2186",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#handleCreate:2216-5317",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "handleCreate",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:3739-3770",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:3789-3946",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:4458-4501",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:4653-4699",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:6601-6632",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:6997-7034",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:7418-7452",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/create-quiz-modal.tsx#anonymous:8116-8472",
+    "file": "components/teacher/create-quiz-modal.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#TeacherDashboardContent:783-11286",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "TeacherDashboardContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:1147-1196",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#loadQuizzes:1224-2190",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "loadQuizzes",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:1673-2026",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#loadAnalytics:2215-2911",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "loadAnalytics",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:2705-2769",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#handleLogout:2935-3018",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "handleLogout",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#handleQuizCreated:3047-3107",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "handleQuizCreated",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:5288-5318",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:6336-6357",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:8746-8799",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:9961-10807",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/dashboard-content.tsx#anonymous:11181-11212",
+    "file": "components/teacher/dashboard-content.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/teacher/dashboard/page.tsx#TeacherDashboard:176-699",
+    "file": "app/teacher/dashboard/page.tsx",
+    "name": "TeacherDashboard",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#QuizAnalytics:1037-12672",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "QuizAnalytics",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1125-3668",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1521-1560",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1612-1627",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1785-1799",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1917-1931",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:1967-1991",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2027-2051",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2087-2100",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2195-2847",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2254-2318",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2286-2317",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:2374-2393",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:3294-3408",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:7096-7136",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:7329-7444",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:7856-8644",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:9477-9499",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:9995-11596",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/quiz-analytics.tsx#anonymous:12257-12279",
+    "file": "components/teacher/quiz-analytics.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/teacher/quizzes/[id]/analyze/page.tsx#QuizAnalyticsPage:163-1161",
+    "file": "app/teacher/quizzes/[id]/analyze/page.tsx",
+    "name": "QuizAnalyticsPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#EditQuizForm:1080-15800",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "EditQuizForm",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#handleAddQuestion:1842-2298",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "handleAddQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#handleUpdateQuestion:2330-2459",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "handleUpdateQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:2395-2453",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#handleDeleteQuestion:2491-2584",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "handleDeleteQuestion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:2552-2578",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#handleSave:2606-5947",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "handleSave",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:4217-4248",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:4267-4417",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:4983-5026",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:5179-5225",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:5683-5722",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#handlePublish:5972-7046",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "handlePublish",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:6792-6831",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#copyJoinCode:7070-7231",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "copyJoinCode",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:7188-7214",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:7542-7561",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:8926-8957",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:9318-9355",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:9846-9880",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:12593-12949",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:14029-14055",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/teacher/edit-quiz-form.tsx#anonymous:15521-15560",
+    "file": "components/teacher/edit-quiz-form.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "app/teacher/quizzes/[id]/edit/page.tsx#EditQuizPage:162-1299",
+    "file": "app/teacher/quizzes/[id]/edit/page.tsx",
+    "name": "EditQuizPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/theme-provider.tsx#ThemeProvider:140-291",
+    "file": "components/theme-provider.tsx",
+    "name": "ThemeProvider",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/accordion.tsx#Accordion:189-353",
+    "file": "components/ui/accordion.tsx",
+    "name": "Accordion",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/accordion.tsx#AccordionItem:353-625",
+    "file": "components/ui/accordion.tsx",
+    "name": "AccordionItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/accordion.tsx#AccordionTrigger:625-1520",
+    "file": "components/ui/accordion.tsx",
+    "name": "AccordionTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/accordion.tsx#AccordionContent:1520-1980",
+    "file": "components/ui/accordion.tsx",
+    "name": "AccordionContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert.tsx#Alert:686-963",
+    "file": "components/ui/alert.tsx",
+    "name": "Alert",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert.tsx#AlertTitle:963-1240",
+    "file": "components/ui/alert.tsx",
+    "name": "AlertTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/alert.tsx#AlertDescription:1240-1568",
+    "file": "components/ui/alert.tsx",
+    "name": "AlertDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/aspect-ratio.tsx#AspectRatio:82-255",
+    "file": "components/ui/aspect-ratio.tsx",
+    "name": "AspectRatio",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/avatar.tsx#Avatar:136-446",
+    "file": "components/ui/avatar.tsx",
+    "name": "Avatar",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/avatar.tsx#AvatarImage:446-709",
+    "file": "components/ui/avatar.tsx",
+    "name": "AvatarImage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/avatar.tsx#AvatarFallback:709-1050",
+    "file": "components/ui/avatar.tsx",
+    "name": "AvatarFallback",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#Breadcrumb:168-311",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "Breadcrumb",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbList:311-623",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbList",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbItem:623-854",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbLink:854-1171",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbLink",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbPage:1171-1472",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbPage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbSeparator:1472-1810",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/breadcrumb.tsx#BreadcrumbEllipsis:1810-2214",
+    "file": "components/ui/breadcrumb.tsx",
+    "name": "BreadcrumbEllipsis",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/separator.tsx#Separator:142-677",
+    "file": "components/ui/separator.tsx",
+    "name": "Separator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/button-group.tsx#ButtonGroup:949-1296",
+    "file": "components/ui/button-group.tsx",
+    "name": "ButtonGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/button-group.tsx#ButtonGroupText:1296-1728",
+    "file": "components/ui/button-group.tsx",
+    "name": "ButtonGroupText",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/button-group.tsx#ButtonGroupSeparator:1728-2118",
+    "file": "components/ui/button-group.tsx",
+    "name": "ButtonGroupSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#Calendar:309-5882",
+    "file": "components/ui/calendar.tsx",
+    "name": "Calendar",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#formatMonthDropdown:1136-1207",
+    "file": "components/ui/calendar.tsx",
+    "name": "formatMonthDropdown",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#Root:4690-4931",
+    "file": "components/ui/calendar.tsx",
+    "name": "Root",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#Chevron:4949-5499",
+    "file": "components/ui/calendar.tsx",
+    "name": "Chevron",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#WeekNumber:5558-5819",
+    "file": "components/ui/calendar.tsx",
+    "name": "WeekNumber",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#CalendarDayButton:5882-7638",
+    "file": "components/ui/calendar.tsx",
+    "name": "CalendarDayButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/calendar.tsx#anonymous:6124-6183",
+    "file": "components/ui/calendar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#useCarousel:956-1147",
+    "file": "components/ui/carousel.tsx",
+    "name": "useCarousel",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#Carousel:1147-3167",
+    "file": "components/ui/carousel.tsx",
+    "name": "Carousel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:1630-1762",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:1808-1841",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:1890-1923",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:1975-2233",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:2288-2347",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:2383-2556",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#anonymous:2503-2552",
+    "file": "components/ui/carousel.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#CarouselContent:3167-3620",
+    "file": "components/ui/carousel.tsx",
+    "name": "CarouselContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#CarouselItem:3620-4027",
+    "file": "components/ui/carousel.tsx",
+    "name": "CarouselItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#CarouselPrevious:4027-4740",
+    "file": "components/ui/carousel.tsx",
+    "name": "CarouselPrevious",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/carousel.tsx#CarouselNext:4740-5446",
+    "file": "components/ui/carousel.tsx",
+    "name": "CarouselNext",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#useChart:573-761",
+    "file": "components/ui/chart.tsx",
+    "name": "useChart",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#ChartContainer:761-2202",
+    "file": "components/ui/chart.tsx",
+    "name": "ChartContainer",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#ChartStyle:2222-2908",
+    "file": "components/ui/chart.tsx",
+    "name": "ChartStyle",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:2334-2383",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:2549-2850",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:2637-2830",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#ChartTooltipContent:2956-7383",
+    "file": "components/ui/chart.tsx",
+    "name": "ChartTooltipContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:3488-4182",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:4724-7351",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#ChartLegendContent:7429-8713",
+    "file": "components/ui/chart.tsx",
+    "name": "ChartLegendContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#anonymous:7974-8694",
+    "file": "components/ui/chart.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/chart.tsx#getPayloadConfigFromPayload:8713-9665",
+    "file": "components/ui/chart.tsx",
+    "name": "getPayloadConfigFromPayload",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/checkbox.tsx#Checkbox:181-1205",
+    "file": "components/ui/checkbox.tsx",
+    "name": "Checkbox",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/collapsible.tsx#Collapsible:81-253",
+    "file": "components/ui/collapsible.tsx",
+    "name": "Collapsible",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/collapsible.tsx#CollapsibleTrigger:253-494",
+    "file": "components/ui/collapsible.tsx",
+    "name": "CollapsibleTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/collapsible.tsx#CollapsibleContent:494-735",
+    "file": "components/ui/collapsible.tsx",
+    "name": "CollapsibleContent",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#Dialog:173-325",
+    "file": "components/ui/dialog.tsx",
+    "name": "Dialog",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogTrigger:325-498",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogPortal:498-667",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogClose:667-832",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogClose",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogOverlay:832-1255",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogOverlay",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogContent:1255-2728",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogHeader:2728-2969",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogFooter:2969-3245",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogTitle:3245-3519",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dialog.tsx#DialogDescription:3519-3812",
+    "file": "components/ui/dialog.tsx",
+    "name": "DialogDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#Command:291-626",
+    "file": "components/ui/command.tsx",
+    "name": "Command",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandDialog:626-1779",
+    "file": "components/ui/command.tsx",
+    "name": "CommandDialog",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandInput:1779-2402",
+    "file": "components/ui/command.tsx",
+    "name": "CommandInput",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandList:2402-2726",
+    "file": "components/ui/command.tsx",
+    "name": "CommandList",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandEmpty:2726-2964",
+    "file": "components/ui/command.tsx",
+    "name": "CommandEmpty",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandGroup:2964-3447",
+    "file": "components/ui/command.tsx",
+    "name": "CommandGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandSeparator:3447-3727",
+    "file": "components/ui/command.tsx",
+    "name": "CommandSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandItem:3727-4379",
+    "file": "components/ui/command.tsx",
+    "name": "CommandItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/command.tsx#CommandShortcut:4379-4666",
+    "file": "components/ui/command.tsx",
+    "name": "CommandShortcut",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenu:218-391",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenu",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuTrigger:391-595",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuGroup:595-791",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuPortal:791-991",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuSub:991-1169",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuSub",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuRadioGroup:1169-1402",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuRadioGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuSubTrigger:1402-2237",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuSubTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuSubContent:2237-3036",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuSubContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuContent:3036-3979",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuItem:3979-5028",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuCheckboxItem:5028-5998",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuCheckboxItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuRadioItem:5998-6932",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuRadioItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuLabel:6932-7341",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuSeparator:7341-7643",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/context-menu.tsx#ContextMenuShortcut:7643-7939",
+    "file": "components/ui/context-menu.tsx",
+    "name": "ContextMenuShortcut",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#Drawer:127-279",
+    "file": "components/ui/drawer.tsx",
+    "name": "Drawer",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerTrigger:279-452",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerPortal:452-621",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerClose:621-786",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerClose",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerOverlay:786-1209",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerOverlay",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerContent:1209-2889",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerHeader:2889-3295",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerFooter:3295-3523",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerTitle:3523-3792",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/drawer.tsx#DrawerDescription:3792-4085",
+    "file": "components/ui/drawer.tsx",
+    "name": "DrawerDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenu:220-397",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenu",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuPortal:397-601",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuTrigger:601-825",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuContent:825-1826",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuGroup:1826-2026",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuItem:2026-3079",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuCheckboxItem:3079-4056",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuCheckboxItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuRadioGroup:4056-4293",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuRadioGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuRadioItem:4293-5234",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuRadioItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuLabel:5234-5631",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuSeparator:5631-5937",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuShortcut:5937-6235",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuShortcut",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuSub:6235-6417",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuSub",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuSubTrigger:6417-7270",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuSubTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/dropdown-menu.tsx#DropdownMenuSubContent:7270-8074",
+    "file": "components/ui/dropdown-menu.tsx",
+    "name": "DropdownMenuSubContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#Empty:99-430",
+    "file": "components/ui/empty.tsx",
+    "name": "Empty",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#EmptyHeader:430-703",
+    "file": "components/ui/empty.tsx",
+    "name": "EmptyHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#EmptyMedia:1124-1443",
+    "file": "components/ui/empty.tsx",
+    "name": "EmptyMedia",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#EmptyTitle:1443-1670",
+    "file": "components/ui/empty.tsx",
+    "name": "EmptyTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#EmptyDescription:1670-2001",
+    "file": "components/ui/empty.tsx",
+    "name": "EmptyDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/empty.tsx#EmptyContent:2001-2300",
+    "file": "components/ui/empty.tsx",
+    "name": "EmptyContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldSet:245-576",
+    "file": "components/ui/field.tsx",
+    "name": "FieldSet",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldLegend:576-991",
+    "file": "components/ui/field.tsx",
+    "name": "FieldLegend",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldGroup:991-1343",
+    "file": "components/ui/field.tsx",
+    "name": "FieldGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#Field:2282-2617",
+    "file": "components/ui/field.tsx",
+    "name": "Field",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldContent:2617-2900",
+    "file": "components/ui/field.tsx",
+    "name": "FieldContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldLabel:2900-3545",
+    "file": "components/ui/field.tsx",
+    "name": "FieldLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldTitle:3545-3869",
+    "file": "components/ui/field.tsx",
+    "name": "FieldTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldDescription:3869-4361",
+    "file": "components/ui/field.tsx",
+    "name": "FieldDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldSeparator:4361-5039",
+    "file": "components/ui/field.tsx",
+    "name": "FieldSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#FieldError:5039-5896",
+    "file": "components/ui/field.tsx",
+    "name": "FieldError",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#anonymous:5226-5638",
+    "file": "components/ui/field.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/field.tsx#anonymous:5509-5604",
+    "file": "components/ui/field.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormField:701-1024",
+    "file": "components/ui/form.tsx",
+    "name": "FormField",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#useFormField:1046-1677",
+    "file": "components/ui/form.tsx",
+    "name": "useFormField",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormItem:1823-2138",
+    "file": "components/ui/form.tsx",
+    "name": "FormItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormLabel:2138-2492",
+    "file": "components/ui/form.tsx",
+    "name": "FormLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormControl:2492-2915",
+    "file": "components/ui/form.tsx",
+    "name": "FormControl",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormDescription:2915-3220",
+    "file": "components/ui/form.tsx",
+    "name": "FormDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/form.tsx#FormMessage:3220-3637",
+    "file": "components/ui/form.tsx",
+    "name": "FormMessage",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/hover-card.tsx#HoverCard:143-308",
+    "file": "components/ui/hover-card.tsx",
+    "name": "HoverCard",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/hover-card.tsx#HoverCardTrigger:308-504",
+    "file": "components/ui/hover-card.tsx",
+    "name": "HoverCardTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/hover-card.tsx#HoverCardContent:504-1474",
+    "file": "components/ui/hover-card.tsx",
+    "name": "HoverCardContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroup:259-1553",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroupAddon:2436-2983",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroupAddon",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#anonymous:2779-2952",
+    "file": "components/ui/input-group.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroupButton:3498-3898",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroupButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroupText:3898-4210",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroupText",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroupInput:4210-4545",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroupInput",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-group.tsx#InputGroupTextarea:4545-4906",
+    "file": "components/ui/input-group.tsx",
+    "name": "InputGroupTextarea",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-otp.tsx#InputOTP:173-592",
+    "file": "components/ui/input-otp.tsx",
+    "name": "InputOTP",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-otp.tsx#InputOTPGroup:592-809",
+    "file": "components/ui/input-otp.tsx",
+    "name": "InputOTPGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-otp.tsx#InputOTPSlot:809-1995",
+    "file": "components/ui/input-otp.tsx",
+    "name": "InputOTPSlot",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/input-otp.tsx#InputOTPSeparator:1995-2186",
+    "file": "components/ui/input-otp.tsx",
+    "name": "InputOTPSeparator",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemGroup:228-467",
+    "file": "components/ui/item.tsx",
+    "name": "ItemGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemSeparator:467-722",
+    "file": "components/ui/item.tsx",
+    "name": "ItemSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#Item:1332-1760",
+    "file": "components/ui/item.tsx",
+    "name": "Item",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemMedia:2333-2649",
+    "file": "components/ui/item.tsx",
+    "name": "ItemMedia",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemContent:2649-2934",
+    "file": "components/ui/item.tsx",
+    "name": "ItemContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemTitle:2934-3212",
+    "file": "components/ui/item.tsx",
+    "name": "ItemTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemDescription:3212-3595",
+    "file": "components/ui/item.tsx",
+    "name": "ItemDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemActions:3595-3813",
+    "file": "components/ui/item.tsx",
+    "name": "ItemActions",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemHeader:3813-4081",
+    "file": "components/ui/item.tsx",
+    "name": "ItemHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/item.tsx#ItemFooter:4081-4349",
+    "file": "components/ui/item.tsx",
+    "name": "ItemFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/kbd.tsx#Kbd:32-617",
+    "file": "components/ui/kbd.tsx",
+    "name": "Kbd",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/kbd.tsx#KbdGroup:617-836",
+    "file": "components/ui/kbd.tsx",
+    "name": "KbdGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#Menubar:209-538",
+    "file": "components/ui/menubar.tsx",
+    "name": "Menubar",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarMenu:538-703",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarMenu",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarGroup:703-872",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarPortal:872-1045",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarRadioGroup:1045-1245",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarRadioGroup",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarTrigger:1245-1721",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarContent:1721-2656",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarItem:2656-3688",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarCheckboxItem:3688-4629",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarCheckboxItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarRadioItem:4629-5534",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarRadioItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarLabel:5534-5910",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarSeparator:5910-6195",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarShortcut:6195-6482",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarShortcut",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarSub:6482-6643",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarSub",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarSubTrigger:6643-7329",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarSubTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/menubar.tsx#MenubarSubContent:7329-8106",
+    "file": "components/ui/menubar.tsx",
+    "name": "MenubarSubContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenu:233-786",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenu",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuList:786-1141",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuList",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuItem:1141-1418",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuTrigger:1975-2532",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuContent:2532-4251",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuViewport:4251-5019",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuViewport",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuLink:5019-5782",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuLink",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/navigation-menu.tsx#NavigationMenuIndicator:5782-6421",
+    "file": "components/ui/navigation-menu.tsx",
+    "name": "NavigationMenuIndicator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#Pagination:220-500",
+    "file": "components/ui/pagination.tsx",
+    "name": "Pagination",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationContent:500-741",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationItem:741-867",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationItem",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationLink:1002-1423",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationLink",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationPrevious:1423-1810",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationPrevious",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationNext:1810-2186",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationNext",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/pagination.tsx#PaginationEllipsis:2186-2567",
+    "file": "components/ui/pagination.tsx",
+    "name": "PaginationEllipsis",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/popover.tsx#Popover:138-294",
+    "file": "components/ui/popover.tsx",
+    "name": "Popover",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/popover.tsx#PopoverTrigger:294-471",
+    "file": "components/ui/popover.tsx",
+    "name": "PopoverTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/popover.tsx#PopoverContent:471-1395",
+    "file": "components/ui/popover.tsx",
+    "name": "PopoverContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/popover.tsx#PopoverAnchor:1395-1568",
+    "file": "components/ui/popover.tsx",
+    "name": "PopoverAnchor",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/progress.tsx#Progress:140-719",
+    "file": "components/ui/progress.tsx",
+    "name": "Progress",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/resizable.tsx#ResizablePanelGroup:187-550",
+    "file": "components/ui/resizable.tsx",
+    "name": "ResizablePanelGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/resizable.tsx#ResizablePanel:550-727",
+    "file": "components/ui/resizable.tsx",
+    "name": "ResizablePanel",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/resizable.tsx#ResizableHandle:727-1964",
+    "file": "components/ui/resizable.tsx",
+    "name": "ResizableHandle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/scroll-area.tsx#ScrollArea:145-806",
+    "file": "components/ui/scroll-area.tsx",
+    "name": "ScrollArea",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/scroll-area.tsx#ScrollBar:806-1611",
+    "file": "components/ui/scroll-area.tsx",
+    "name": "ScrollBar",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#Sheet:172-318",
+    "file": "components/ui/sheet.tsx",
+    "name": "Sheet",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetTrigger:318-487",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetClose:487-648",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetClose",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetPortal:648-813",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetPortal",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetOverlay:813-1232",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetOverlay",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetContent:1232-2960",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetHeader:2960-3180",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetFooter:3180-3406",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetTitle:3406-3671",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetTitle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sheet.tsx#SheetDescription:3671-3960",
+    "file": "components/ui/sheet.tsx",
+    "name": "SheetDescription",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-mobile.ts#useIsMobile:61-564",
+    "file": "hooks/use-mobile.ts",
+    "name": "useIsMobile",
+    "fanIn": 1,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-mobile.ts#anonymous:195-536",
+    "file": "hooks/use-mobile.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-mobile.ts#onChange:300-371",
+    "file": "hooks/use-mobile.ts",
+    "name": "onChange",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-mobile.ts#anonymous:482-532",
+    "file": "hooks/use-mobile.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/skeleton.tsx#Skeleton:32-254",
+    "file": "components/ui/skeleton.tsx",
+    "name": "Skeleton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tooltip.tsx#TooltipProvider:138-402",
+    "file": "components/ui/tooltip.tsx",
+    "name": "TooltipProvider",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tooltip.tsx#Tooltip:402-615",
+    "file": "components/ui/tooltip.tsx",
+    "name": "Tooltip",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tooltip.tsx#TooltipTrigger:615-792",
+    "file": "components/ui/tooltip.tsx",
+    "name": "TooltipTrigger",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/tooltip.tsx#TooltipContent:792-1823",
+    "file": "components/ui/tooltip.tsx",
+    "name": "TooltipContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#useSidebar:1237-1428",
+    "file": "components/ui/sidebar.tsx",
+    "name": "useSidebar",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarProvider:1428-4273",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarProvider",
+    "fanIn": 0,
+    "fanOut": 2,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:2037-2445",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:2554-2645",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:2598-2613",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:2625-2640",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:2755-3127",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#handleKeyDown:2788-2998",
+    "file": "components/ui/sidebar.tsx",
+    "name": "handleKeyDown",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:3064-3123",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:3400-3536",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#Sidebar:4273-7792",
+    "file": "components/ui/sidebar.tsx",
+    "name": "Sidebar",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarTrigger:7792-8313",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarTrigger",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:8122-8191",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarRail:8313-9474",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarRail",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarInset:9474-9967",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarInset",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarInput:9967-10240",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarInput",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarHeader:10240-10490",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarFooter:10490-10740",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarSeparator:10740-11026",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarSeparator",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarContent:11026-11375",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarGroup:11375-11640",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarGroupLabel:11640-12312",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarGroupLabel",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarGroupAction:12312-13120",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarGroupAction",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarGroupContent:13120-13385",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarGroupContent",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenu:13385-13638",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenu",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuItem:13638-13895",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuButton:15326-16394",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuAction:16394-17679",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuAction",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuBadge:17679-18448",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuBadge",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuSkeleton:18448-19315",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuSkeleton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#anonymous:18653-18717",
+    "file": "components/ui/sidebar.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuSub:19315-19712",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuSub",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuSubItem:19712-19988",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuSubItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sidebar.tsx#SidebarMenuSubButton:19988-21190",
+    "file": "components/ui/sidebar.tsx",
+    "name": "SidebarMenuSubButton",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/slider.tsx#Slider:136-1970",
+    "file": "components/ui/slider.tsx",
+    "name": "Slider",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/slider.tsx#anonymous:317-456",
+    "file": "components/ui/slider.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/slider.tsx#anonymous:1558-1934",
+    "file": "components/ui/slider.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/sonner.tsx#Toaster:126-543",
+    "file": "components/ui/sonner.tsx",
+    "name": "Toaster",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/spinner.tsx#Spinner:76-310",
+    "file": "components/ui/spinner.tsx",
+    "name": "Spinner",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/switch.tsx#Switch:136-1154",
+    "file": "components/ui/switch.tsx",
+    "name": "Switch",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#Table:78-413",
+    "file": "components/ui/table.tsx",
+    "name": "Table",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableHeader:413-627",
+    "file": "components/ui/table.tsx",
+    "name": "TableHeader",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableBody:627-848",
+    "file": "components/ui/table.tsx",
+    "name": "TableBody",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableFooter:848-1127",
+    "file": "components/ui/table.tsx",
+    "name": "TableFooter",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableRow:1127-1414",
+    "file": "components/ui/table.tsx",
+    "name": "TableRow",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableHead:1414-1774",
+    "file": "components/ui/table.tsx",
+    "name": "TableHead",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableCell:1774-2090",
+    "file": "components/ui/table.tsx",
+    "name": "TableCell",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/table.tsx#TableCaption:2090-2333",
+    "file": "components/ui/table.tsx",
+    "name": "TableCaption",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:445-726",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:1902-2089",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:2300-2964",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:3180-3745",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:3959-4110",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toast.tsx#anonymous:4342-4496",
+    "file": "components/ui/toast.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#genId:530-626",
+    "file": "hooks/use-toast.ts",
+    "name": "genId",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#addToRemoveQueue:1156-1442",
+    "file": "hooks/use-toast.ts",
+    "name": "addToRemoveQueue",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:1261-1380",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#reducer:1466-2724",
+    "file": "hooks/use-toast.ts",
+    "name": "reducer",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:1761-1834",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:2145-2204",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:2281-2438",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:2678-2708",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#dispatch:2818-2969",
+    "file": "hooks/use-toast.ts",
+    "name": "dispatch",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:2921-2966",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#toast:3008-3496",
+    "file": "hooks/use-toast.ts",
+    "name": "toast",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#update:3086-3192",
+    "file": "hooks/use-toast.ts",
+    "name": "update",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#dismiss:3210-3265",
+    "file": "hooks/use-toast.ts",
+    "name": "dismiss",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#onOpenChange:3379-3428",
+    "file": "hooks/use-toast.ts",
+    "name": "onOpenChange",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#useToast:3496-3916",
+    "file": "hooks/use-toast.ts",
+    "name": "useToast",
+    "fanIn": 1,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:3602-3782",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#anonymous:3649-3778",
+    "file": "hooks/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "hooks/use-toast.ts#dismiss:3842-3909",
+    "file": "hooks/use-toast.ts",
+    "name": "dismiss",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toaster.tsx#Toaster:189-785",
+    "file": "components/ui/toaster.tsx",
+    "name": "Toaster",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toaster.tsx#anonymous:301-732",
+    "file": "components/ui/toaster.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toggle.tsx#Toggle:1218-1535",
+    "file": "components/ui/toggle.tsx",
+    "name": "Toggle",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toggle-group.tsx#ToggleGroup:399-1031",
+    "file": "components/ui/toggle-group.tsx",
+    "name": "ToggleGroup",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/toggle-group.tsx#ToggleGroupItem:1031-1885",
+    "file": "components/ui/toggle-group.tsx",
+    "name": "ToggleGroupItem",
+    "fanIn": 0,
+    "fanOut": 1,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-mobile.tsx#useIsMobile:61-564",
+    "file": "components/ui/use-mobile.tsx",
+    "name": "useIsMobile",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-mobile.tsx#anonymous:195-536",
+    "file": "components/ui/use-mobile.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-mobile.tsx#onChange:300-371",
+    "file": "components/ui/use-mobile.tsx",
+    "name": "onChange",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-mobile.tsx#anonymous:482-532",
+    "file": "components/ui/use-mobile.tsx",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#genId:530-626",
+    "file": "components/ui/use-toast.ts",
+    "name": "genId",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#addToRemoveQueue:1156-1442",
+    "file": "components/ui/use-toast.ts",
+    "name": "addToRemoveQueue",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:1261-1380",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#reducer:1466-2724",
+    "file": "components/ui/use-toast.ts",
+    "name": "reducer",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:1761-1834",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:2145-2204",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:2281-2438",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:2678-2708",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#dispatch:2818-2969",
+    "file": "components/ui/use-toast.ts",
+    "name": "dispatch",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:2921-2966",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#toast:3008-3496",
+    "file": "components/ui/use-toast.ts",
+    "name": "toast",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#update:3086-3192",
+    "file": "components/ui/use-toast.ts",
+    "name": "update",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#dismiss:3210-3265",
+    "file": "components/ui/use-toast.ts",
+    "name": "dismiss",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#onOpenChange:3379-3428",
+    "file": "components/ui/use-toast.ts",
+    "name": "onOpenChange",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#useToast:3496-3916",
+    "file": "components/ui/use-toast.ts",
+    "name": "useToast",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:3602-3782",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#anonymous:3649-3778",
+    "file": "components/ui/use-toast.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "components/ui/use-toast.ts#dismiss:3842-3909",
+    "file": "components/ui/use-toast.ts",
+    "name": "dismiss",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/middleware.ts#updateSession:111-937",
+    "file": "lib/supabase/middleware.ts",
+    "name": "updateSession",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/middleware.ts#getAll:391-462",
+    "file": "lib/supabase/middleware.ts",
+    "name": "getAll",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/middleware.ts#setAll:463-617",
+    "file": "lib/supabase/middleware.ts",
+    "name": "setAll",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  },
+  {
+    "id": "lib/supabase/middleware.ts#anonymous:526-606",
+    "file": "lib/supabase/middleware.ts",
+    "name": "anonymous",
+    "fanIn": 0,
+    "fanOut": 0,
+    "informationMetric": 0
+  }
+]

@@ -1,0 +1,239 @@
+
+================================================================================
+QUIZMASTER COMPREHENSIVE TEST REPORT
+================================================================================
+Generated: 2025-11-05T22:40:02.734300
+Base URL: https://quiz-master-bay.vercel.app
+
+SUMMARY:
+--------
+Total Tests: 79
+Passed: 53 (67.1%)
+Failed: 8 (10.1%)
+Warnings: 18 (22.8%)
+Pass Rate: 67.1%
+
+Elements Tested: 49
+
+PASSED TESTS (53):
+--------------
+✓ Page Load: https://quiz-master-bay.vercel.app/student/join-quiz: Page loaded successfully
+✓ Join Code Input: Join code input works
+✓ links_link_1: Link clicked: https://quiz-master-bay.vercel.app/auth/login
+✓ Page Load: https://quiz-master-bay.vercel.app/student/dashboard: Page loaded successfully
+✓ Page Load: https://quiz-master-bay.vercel.app/teacher/dashboard: Page loaded successfully
+✓ Page Load: https://quiz-master-bay.vercel.app/: Page loaded successfully
+✓ buttons_button_1: Button clicked successfully: Sign In
+✓ links_link_1: Link clicked: https://quiz-master-bay.vercel.app/auth/sign-up
+✓ inputs_input_1: Input field filled: fullName (type: text)
+✓ inputs_input_2: Input field filled: email (type: email)
+✓ inputs_input_4: Input field filled: password (type: password)
+✓ inputs_input_5: Input field filled: repeatPassword (type: password)
+✓ forms_form_1_submit: Form submitted
+✓ Page Load: https://quiz-master-bay.vercel.app/auth/login: Page loaded successfully
+✓ buttons_button_1: Button clicked successfully: Sign In
+✓ links_link_1: Link clicked: https://quiz-master-bay.vercel.app/auth/sign-up
+✓ inputs_input_1: Input field filled: fullName (type: text)
+✓ inputs_input_2: Input field filled: email (type: email)
+✓ inputs_input_4: Input field filled: password (type: password)
+✓ inputs_input_5: Input field filled: repeatPassword (type: password)
+... and 33 more passed tests
+
+FAILED TESTS (8):
+---------------
+✗ buttons_button_1: Error testing button: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x00000001045362c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028
+3   chromedriver                        0x0000000104546e20 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142472
+4   chromedriver                        0x0000000104545efc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 138596
+5   chromedriver                        0x000000010453c980 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100328
+6   chromedriver                        0x000000010453b184 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 94188
+7   chromedriver                        0x000000010453e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900
+8   chromedriver                        0x000000010453e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084
+9   chromedriver                        0x0000000104578aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452
+10  chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+11  chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+12  chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+13  chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+14  chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+15  chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+16  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+17  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+18  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+19  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+20  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+21  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ buttons_button_2: Error clicking element: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x00000001045362c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028
+3   chromedriver                        0x0000000104546e20 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142472
+4   chromedriver                        0x0000000104545efc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 138596
+5   chromedriver                        0x000000010453c980 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100328
+6   chromedriver                        0x000000010453ca8c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100596
+7   chromedriver                        0x000000010453b184 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 94188
+8   chromedriver                        0x000000010453e5e8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107600
+9   chromedriver                        0x00000001045bfcf8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637792
+10  chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+11  chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+12  chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+13  chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+14  chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+15  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+16  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+17  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+18  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+19  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+20  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+21  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ buttons_button_2: Button click failed
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ inputs_input_3: Error testing input: Message: invalid element state
+  (Session info: chrome=142.0.7444.60)
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x0000000104536128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616
+3   chromedriver                        0x00000001045757a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328
+4   chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+5   chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+6   chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+7   chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+8   chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+9   chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+10  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+11  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+12  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+13  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+14  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ inputs_input_3: Error testing input: Message: invalid element state
+  (Session info: chrome=142.0.7444.60)
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x0000000104536128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616
+3   chromedriver                        0x00000001045757a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328
+4   chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+5   chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+6   chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+7   chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+8   chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+9   chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+10  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+11  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+12  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+13  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+14  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ inputs_input_3: Error testing input: Message: invalid element state
+  (Session info: chrome=142.0.7444.60)
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x0000000104536128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616
+3   chromedriver                        0x00000001045757a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328
+4   chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+5   chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+6   chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+7   chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+8   chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+9   chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+10  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+11  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+12  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+13  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+14  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ buttons_button_1: Error testing button: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x00000001045362c4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74028
+3   chromedriver                        0x0000000104546e20 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142472
+4   chromedriver                        0x0000000104545efc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 138596
+5   chromedriver                        0x000000010453c980 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100328
+6   chromedriver                        0x000000010453b184 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 94188
+7   chromedriver                        0x000000010453e32c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 106900
+8   chromedriver                        0x000000010453e3e4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 107084
+9   chromedriver                        0x0000000104578aec _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 346452
+10  chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+11  chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+12  chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+13  chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+14  chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+15  chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+16  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+17  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+18  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+19  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+20  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+21  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+✗ inputs_input_3: Error testing input: Message: invalid element state
+  (Session info: chrome=142.0.7444.60)
+Stacktrace:
+0   chromedriver                        0x0000000104a273b8 cxxbridge1$str$ptr + 2941356
+1   chromedriver                        0x0000000104a1f074 cxxbridge1$str$ptr + 2907752
+2   chromedriver                        0x0000000104536128 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73616
+3   chromedriver                        0x00000001045757a8 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333328
+4   chromedriver                        0x000000010457352c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324500
+5   chromedriver                        0x00000001045bed84 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633836
+6   chromedriver                        0x0000000104571f18 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318848
+7   chromedriver                        0x00000001049e97fc cxxbridge1$str$ptr + 2688496
+8   chromedriver                        0x00000001049ed018 cxxbridge1$str$ptr + 2702860
+9   chromedriver                        0x00000001049ca614 cxxbridge1$str$ptr + 2561032
+10  chromedriver                        0x00000001049ed8f0 cxxbridge1$str$ptr + 2705124
+11  chromedriver                        0x00000001049bbeb4 cxxbridge1$str$ptr + 2501800
+12  chromedriver                        0x0000000104a0da20 cxxbridge1$str$ptr + 2836500
+13  chromedriver                        0x0000000104a0dba4 cxxbridge1$str$ptr + 2836888
+14  chromedriver                        0x0000000104a1ecc4 cxxbridge1$str$ptr + 2906808
+15  libsystem_pthread.dylib             0x0000000185164c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018515fba8 thread_start + 8
+
+  URL: https://quiz-master-bay.vercel.app/auth/sign-up
+
+WARNINGS (18):
+---------
+⚠ Homepage Test: Starting homepage tests
+⚠ Page Load: https://quiz-master-bay.vercel.app: Title mismatch. Expected: QuizMaster, Got: v0 App
+⚠ Login Page Test: Starting login page tests
+⚠ Page Load: https://quiz-master-bay.vercel.app/auth/login: Title mismatch. Expected: Login, Got: v0 App
+⚠ Signup Page Test: Starting signup page tests
+⚠ Page Load: https://quiz-master-bay.vercel.app/auth/sign-up: Title mismatch. Expected: Sign Up, Got: v0 App
+⚠ Join Quiz Page Test: Starting join quiz page tests
+⚠ Student Dashboard Test: Starting student dashboard tests
+⚠ Student Dashboard Auth: Redirected to login (authentication required)
+⚠ Teacher Dashboard Test: Starting teacher dashboard tests
+⚠ Teacher Dashboard Auth: Redirected to login (authentication required)
+⚠ Testing Homepage: Accessing /
+⚠ Testing Login Page: Accessing /auth/login
+⚠ Testing Signup Page: Accessing /auth/sign-up
+⚠ Testing Signup Success Page: Accessing /auth/sign-up-success
+⚠ Testing Student Dashboard: Accessing /student/dashboard
+⚠ Testing Join Quiz Page: Accessing /student/join-quiz
+⚠ Testing Teacher Dashboard: Accessing /teacher/dashboard
+
+================================================================================
